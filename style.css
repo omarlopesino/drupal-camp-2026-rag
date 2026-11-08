@@ -1,0 +1,16 @@
+/* Centra el contenido de las diapositivas; al crecer, ocupa el espacio disponible. */
+/*
+.slidev-layout.default {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*/
+/* Marca de la DrupalCamp: logo abajo a la izquierda y skyline abajo a la derecha. */
+.slidev-layout {
+  background:
+    url('./assets/img/drupalcamp-2026.svg') left 2rem bottom 1.5rem / 14% auto no-repeat,
+    url('./assets/img/skyline.png') right 2rem bottom 0 / 24% auto no-repeat,
+    #fff !important;
+}
