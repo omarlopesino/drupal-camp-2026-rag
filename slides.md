@@ -86,7 +86,7 @@ En 2025 se reportó un estudio del INE reporto que alrededor del 37% de la pobla
 
 En el desarrollo con IA (Claude Code, OpenCode, Pi, Codex) se construyen arneses de seguridad mediante:
 - Prompts sofisticados: específicos, claros y sin ruido.
-- Reglas que permitan 
+- Reglas que deben seguir los agentes para trabajar: convenciones, metodología, buenas prácticas.
 - Conocimiento que le permite entender como debe funcionar la aplicación.
 - El propio código permite la detección de patrones.
 
