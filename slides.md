@@ -94,12 +94,12 @@ En el desarrollo con IA (Claude Code, OpenCode, Pi, Codex) se construyen arneses
 
 # ¿Como podemos llevar este control a las aplicaciones con IA?
 
----
-
-# ¿Como podemos llevar este control a las aplicaciones con IA?
+<v-clicks>
 
 - Un buen prompt
 - Sistema de búsqueda de información: bases de datos tradicionales / bases de datos vectoriales
 - Evaluaciones
 - Monitorización
+
+</v-clicks>
 
