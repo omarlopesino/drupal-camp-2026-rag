@@ -25,17 +25,6 @@ defaults:
 
 ---
 
-# ¿Qué vamos a ver en esta charla?
-
-- El estado actual de la IA y nuestro reto: Crear aplicaciones que usen IA de confianza
-- Qué es un RAG
-- Ejemplos
-- Cómo funcionan estos sistemas por dentro
-- De que forma podemos desarrollarlo
-- Información útil: modelos a utilizar, técnicas, AI Act.
-
----
-
 # ¿Quién utiliza Inteligencia Artificial en su día a día?
 
 ---
@@ -60,7 +49,7 @@ defaults:
 layout: fact
 ---
 
-En 2025 se reportó un estudio del INE reporto que alrededor del 37% de la población ha utilizado la inteligencia artificial, tanto de forma personal como para trabajar y estudiar.
+En 2025 un estudio del INE reportó que alrededor del 37% de la población ha utilizado la inteligencia artificial, tanto de forma personal como para trabajar y estudiar.
 
 <p class="text-base mt-6">Fuente: <a href="https://www.ine.es/dyngs/Prensa/TICH2025.htm" target="_blank">INE</a></p>
 
@@ -68,18 +57,19 @@ En 2025 se reportó un estudio del INE reporto que alrededor del 37% de la pobla
 
 # ¿Quién confía plenamente en las respuestas de la Inteligencia Artificial Generativa?
 
+Los LLM (large language models) a día de hoy:
+
+<v-clicks>
+
+- Alucinan (cada vez menos)
+- Pueden no responder a la pregunta exacta del usuario
+- En ocasiones (muchas), requieren sucesivos prompts para obtener la respuesta deseada.
+- Para hacer respuestas a medida requieren elaborar prompts a medida.
+
+</v-clicks>
+
 ---
-
-<img src="./assets/img/gemini-pregunta-pescado-cuadrado.png" class="mx-auto max-h-110 rounded shadow" />
-
----
-
-<img src="./assets/img/gemini-pregunta-pescado-dos-cuadrado.png" class="mx-auto max-h-110 rounded shadow" />
-
----
-
-# ¿Podemos tener el control de estas respuestas?
-
+hide: true
 ---
 
 # Ejemplo: Programación con IA
@@ -87,12 +77,25 @@ En 2025 se reportó un estudio del INE reporto que alrededor del 37% de la pobla
 En el desarrollo con IA (Claude Code, OpenCode, Pi, Codex) se construyen arneses de seguridad mediante:
 - Prompts sofisticados: específicos, claros y sin ruido.
 - Reglas que deben seguir los agentes para trabajar: convenciones, metodología, buenas prácticas.
-- Conocimiento que le permite entender como debe funcionar la aplicación.
+- Conocimiento que le permite entender cómo debe funcionar la aplicación.
 - El propio código permite la detección de patrones.
 
 ---
 
-# ¿Como podemos llevar este control a las aplicaciones con IA?
+# ¿Qué vamos a ver en esta charla?
+
+- El objetivo: Dar respuestas fiables a los usuarios sobre problemas específicos
+- El método: Proveer a la IA generativa de un RAG
+- Ejemplos
+- Cómo funcionan estos sistemas por dentro
+- De qué forma podemos desarrollarlo
+- Información útil: modelos a utilizar, técnicas, AI Act.
+
+---
+hide: true
+---
+
+# ¿Cómo podemos llevar este control a las aplicaciones con IA?
 
 <v-clicks>
 
@@ -103,3 +106,101 @@ En el desarrollo con IA (Claude Code, OpenCode, Pi, Codex) se construyen arneses
 
 </v-clicks>
 
+---
+
+# El objetivo: Dar respuestas fiables a los usuarios sobre problemas específicos
+
+---
+
+# La solución: Aportar valor con la inteligencia artificial
+
+Con una aplicación que permita:
+
+- Dar información correcta: real, sin alucinaciones.
+- Dar datos propios.
+- Interfaz que permita al usuario escribir mediante lenguaje natural.
+- Mostrar respuestas personalizadas.
+
+---
+
+# El método: Proveer a la IA generativa de un RAG
+
+- Retrieval augmented generation.
+- Sistema que provee de contexto a la IA a partir de una base de datos externa.
+
+---
+
+# ¿Cómo podríamos hacerlo solo con IA generativa?
+
+---
+
+# ¿Cómo podríamos hacerlo solo con IA generativa?
+
+<img src="./assets/img/gemini-pregunta-pescado-cuadrado.png" class="mx-auto max-h-90 rounded shadow" />
+
+---
+
+# ¿Cómo podríamos hacerlo solo con IA generativa?
+
+<img src="./assets/img/gemini-pregunta-pescado-dos-cuadrado.png" class="mx-auto max-h-90 rounded shadow" />
+
+---
+
+# ¿Cómo podríamos hacerlo solo con IA generativa?
+
+<!--
+
+Aquí quiero que pongamos un slide con un vídeo donde abra un fichero de Word con recetas, un fichero con un prompt e instrucciones, y todo ello lo pegamos en Gemini, junto con nuestra pregunta inicial para que pueda responder.
+
+Quiero también que después de este slide indiquemos qué problemas presenta esta aproximación.
+
+-->
+
+---
+
+# ¿Cómo podríamos hacerlo con un RAG?
+
+<!--
+Después hará falta mostrar ejemplos de RAGs. Inicialmente, con mostrar un ejemplo de NotebookLM y otro de la documentación de Netlify o un sistema similar nos sirve.
+
+Después podemos poner ejemplos con el RAG que hemos hecho.
+-->
+
+---
+
+# Retos para desarrollar un RAG
+
+- ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
+- ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
+
+---
+
+# Modelos prácticos
+
+<v-clicks>
+
+- ChatGPT 5 (el mini es suficiente)
+- DeepSeek
+- Claude
+
+</v-clicks>
+
+---
+
+# ¿Con qué técnicas podemos perfeccionar un RAG?
+
+<v-clicks>
+
+- Búsqueda densa o dispersa
+- Búsqueda híbrida
+- Reconstrucción de la consulta del usuario
+
+</v-clicks>
+
+---
+
+# AI Act: Aplicaciones de inteligencia artificial dentro del marco europeo
+
+<!--
+Posiblemente aquí merezca la pena hablar de cómo nuestros ejemplos llevan el disclaimer de que las respuestas son generadas por IA.
+-->
