@@ -123,13 +123,6 @@ Con una aplicación que permita:
 
 ---
 
-# El método: Proveer a la IA generativa de un RAG
-
-- Retrieval augmented generation.
-- Sistema que provee de contexto a la IA a partir de una base de datos externa.
-
----
-
 # ¿Cómo podríamos hacerlo solo con IA generativa?
 
 ---
@@ -187,6 +180,37 @@ Después hará falta mostrar ejemplos de RAGs. Inicialmente, con mostrar un ejem
 
 Después podemos poner ejemplos con el RAG que hemos hecho.
 -->
+
+---
+
+# ¿Cómo podríamos hacerlo con un RAG?
+
+<img src="./assets/img/chatbot-lentejas.png" class="mx-auto max-h-90 rounded shadow" />
+
+<p class="text-xs text-right mt-1">Chatbot con Drupal</p>
+
+---
+
+# ¿Cómo podríamos hacerlo con un RAG?
+
+<SlidevVideo controls muted class="mx-auto max-h-90 rounded shadow">
+  <source src="./assets/video/planificador-menu.mp4" type="video/mp4" />
+</SlidevVideo>
+
+<p class="text-xs text-right mt-1">Hecho con Drupal</p>
+
+---
+
+# Todo esto funciona gracias a un RAG
+
+- Retrieval augmented generation
+- Sistema que provee de contexto a la IA a partir de una base de datos externa
+
+---
+
+# Cómo funciona un RAG por dentro
+
+<img src="./assets/diagramas/rag-agente.png" class="mx-auto max-h-90 rounded shadow" />
 
 ---
 
