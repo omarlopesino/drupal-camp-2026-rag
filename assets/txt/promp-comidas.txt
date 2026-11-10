@@ -1,0 +1,13 @@
+Quiero algo de pescado para cenar. Necesito ir al supermercado y comprar los ingredientes, pero no  me decido entre todas las recetas que tengo. Selecciona una receta exclusivamente de esta lista y dime que es lo que debo de comprar, además de la forma de prepararlo. El objetivo es que con la respuesta pueda planear una compra y Responde con el siguiente formato:
+
+[Nombre del plato]
+
+Breve descripción
+
+Ingredientes
+
+Modo de preparación
+
+Url de directo al paladar
+
+Por favor, si tiene almendrás, quítalas. Soy alérgico.
