@@ -1,0 +1,57 @@
+<mxfile host="drawio">
+  <diagram id="rag" name="RAG">
+    <mxGraphModel dx="1200" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1280" pageHeight="420" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="t1" value="1. Indexación" style="text;html=1;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;fontColor=#1f4e79;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="2. Consulta" style="text;html=1;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;fontColor=#7a4b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="doc" value="Pescado.pdf" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chunks" value="Trocear en chunks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="55" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emb1" value="Modelo de embeddings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="480" y="55" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="db" value="Base de datos vectorial" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;size=12;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="700" y="45" width="160" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="q" value="¿Qué podemos cenar hoy?" style="shape=mxgraph.basic.speech_bubble;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="emb2" value="Modelo de embeddings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="480" y="235" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel" value="Chunks relevantes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="700" y="235" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="llm" value="LLM&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;pregunta + chunks&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="235" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ans" value="Respuesta" style="shape=mxgraph.basic.speech_bubble;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#555555;" edge="1" parent="1" source="doc" target="chunks"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#555555;" edge="1" parent="1" source="chunks" target="emb1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#555555;" edge="1" parent="1" source="emb1" target="db"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e4" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#555555;" edge="1" parent="1" source="q" target="emb2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" value="buscar similares" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;strokeWidth=2;strokeColor=#555555;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="emb2" target="db"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="560" y="170" /><mxPoint x="740" y="170" /></Array></mxGeometry></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;strokeWidth=2;strokeColor=#555555;" edge="1" parent="1" source="db" target="rel"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="820" y="180" /></Array></mxGeometry></mxCell>
+        <mxCell id="e7" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#555555;" edge="1" parent="1" source="rel" target="llm"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#555555;" edge="1" parent="1" source="llm" target="ans"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;strokeWidth=2;strokeColor=#d79b00;dashed=1;" edge="1" parent="1" source="q" target="llm"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="120" y="340" /><mxPoint x="1000" y="340" /></Array></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
