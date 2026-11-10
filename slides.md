@@ -148,6 +148,10 @@ Con una aplicación que permita:
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
 
+<SlidevVideo controls muted class="mx-auto max-h-90 rounded shadow">
+  <source src="./assets/video/gemini-recetas.mp4" type="video/mp4" />
+</SlidevVideo>
+
 <!--
 
 Aquí quiero que pongamos un slide con un vídeo donde abra un fichero de Word con recetas, un fichero con un prompt e instrucciones, y todo ello lo pegamos en Gemini, junto con nuestra pregunta inicial para que pueda responder.
