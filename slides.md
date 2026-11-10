@@ -162,7 +162,25 @@ Quiero también que después de este slide indiquemos qué problemas presenta es
 
 ---
 
+# Desventajas de elaborar prompts propios
+
+- Te debes encargar de coleccionar toda la información y mantenerla al día
+- Debes saber elaborar un buen prompt
+- Es necesario tener disponibles los recursos, o, si no, no podrás usar la herramienta con facilidad
+
+<p class="text-sm mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
+
+---
+
 # ¿Cómo podríamos hacerlo con un RAG?
+
+---
+
+# ¿Cómo podríamos hacerlo con un RAG?
+
+<img src="./assets/img/notebooklm-pescado.png" class="mx-auto max-h-90 rounded shadow" />
+
+<p class="text-xs text-right mt-1">NotebookLM</p>
 
 <!--
 Después hará falta mostrar ejemplos de RAGs. Inicialmente, con mostrar un ejemplo de NotebookLM y otro de la documentación de Netlify o un sistema similar nos sirve.
