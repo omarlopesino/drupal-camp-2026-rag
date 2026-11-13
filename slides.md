@@ -267,6 +267,33 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 ---
 
+# ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
+
+## Ingeniería del prompt
+
+- Instrucciones precisas
+- Exigir que se ajuste al objetivo de la aplicación
+- Requerir un formato y longitud específicos
+- Más soluciones: añadir guardarraíles
+
+---
+
+# ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
+
+<img src="./assets/img/chatbot-lentejas.png" class="mx-auto max-h-90 rounded shadow" />
+
+<p class="text-sm text-center mt-2">Pregunta correcta: Respuesta apropiada</p>
+
+---
+
+# ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
+
+<img src="./assets/img/chatbot-fuera-de-contexto.png" class="mx-auto max-h-90 rounded shadow" />
+
+<p class="text-sm text-center mt-2">Pregunta fuera de contexto: No se responde</p>
+
+---
+
 # Modelos prácticos
 
 <v-clicks>
