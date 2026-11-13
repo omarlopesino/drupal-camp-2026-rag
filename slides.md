@@ -294,6 +294,71 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 ---
 
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+---
+
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+## Evaluación
+
+<v-clicks>
+
+- Pruebas antes de la puesta en producción
+- Permite testear la búsqueda y el agente antes de su despliegue
+- Usa una batería de pruebas planeada con antelación
+
+</v-clicks>
+
+---
+
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+## Evaluación
+
+<img src="./assets/img/ai-eval-resultados.png" class="mx-auto max-h-80 rounded shadow" />
+
+---
+
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+## Monitorización
+
+<v-clicks>
+
+- Se guarda la actividad del usuario elegida
+- Da a conocer el uso real de la aplicación
+
+</v-clicks>
+
+---
+
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+<img src="./assets/img/monitorizacion-escritorio-recorte.png" class="mx-auto max-h-90 rounded shadow" />
+
+<p class="text-sm text-center mt-2">Monitorización</p>
+
+---
+
+# Con esto conseguimos
+
+<v-clicks>
+
+- Medir la calidad de nuestra aplicación
+- Saber cuándo mejora o empeora tras modificar prompt o datos
+- Evaluar funcionamiento con un uso real
+
+</v-clicks>
+
+---
+
+# Flujo completo
+
+<img src="./assets/diagramas/ciclo.png" class="mx-auto max-h-90" />
+
+---
+
 # Modelos prácticos
 
 <v-clicks>
