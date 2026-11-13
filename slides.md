@@ -218,6 +218,52 @@ Después podemos poner ejemplos con el RAG que hemos hecho.
 
 - ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
 - ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
+- ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+---
+
+# ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
+
+## Indexado en motor de búsqueda
+
+<div class="grid grid-cols-2 gap-8 items-center mt-6 text-left">
+<div>
+
+- Palabra exacta (BM25)
+- Implica limpiar la consulta y procesarla (o configurar el índice) para conseguir mejores resultados
+- MySQL, Elasticsearch / Solr
+- Se puede hacer perfectamente con Search API en Drupal (+ Search API DB, Search API Solr o Search API Elasticsearch)
+
+</div>
+
+<img src="./assets/diagramas/bm25.png" class="mx-auto max-h-60" />
+
+</div>
+
+---
+
+# ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
+
+## Indexado en base de datos vectorial
+
+<div class="grid grid-cols-2 gap-8 items-center mt-6 text-left">
+<div>
+
+- Permite una búsqueda semántica
+- Es capaz de encontrar resultados relevantes, aunque no coincidan las palabras
+- Más apropiado para el lenguaje natural
+
+</div>
+
+<img src="./assets/diagramas/vectorial.png" class="mx-auto max-h-70" />
+
+</div>
+
+<!--
+Más que haber uno mejor, hay que probar cuál funciona mejor en cada caso. Posiblemente lo más sencillo funcione y no se necesite un embedding.
+
+Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CPU. También se puede generar a través de la API de un proveedor (OpenAI, Mistral, etc.), pagando por uso.
+-->
 
 ---
 
