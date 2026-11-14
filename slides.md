@@ -573,9 +573,11 @@ seccion: '06'
 </div>
 
 ---
+layout: feedback
+---
 
 # ¡Gracias!
 
-<div class="dcs-tarjeta-blanca">
-  <p class="text-[27px] font-bold m-0">¿Preguntas?</p>
-</div>
+¿Preguntas?
+
+Si tienes alguna duda o algo que decir sobre la charla este es tu momento.
