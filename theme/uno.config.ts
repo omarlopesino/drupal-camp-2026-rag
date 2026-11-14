@@ -33,5 +33,7 @@ export default defineConfig({
     'dcs-tarjeta-amanecer': 'dcs-tarjeta bg-dcs-amanecer',
     'dcs-tarjeta-blanca': 'dcs-tarjeta bg-white',
     'dcs-tarjeta-borde': 'dcs-tarjeta border-2 border-dcs-tinta',
+    // Screenshots and diagrams: fit between the header (y=187) and the footer
+    'dcs-captura': 'block mx-auto max-h-[380px] max-w-full rounded-dcs shadow',
   },
 })
