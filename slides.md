@@ -386,6 +386,7 @@ Son necesarios diferentes modelos para:
 - Búsqueda densa o dispersa
 - Búsqueda híbrida
 - Reconstrucción de la consulta del usuario
+- Reranking
 
 </v-clicks>
 
