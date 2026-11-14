@@ -69,18 +69,6 @@ Los LLM (large language models) a día de hoy:
 </v-clicks>
 
 ---
-hide: true
----
-
-# Ejemplo: Programación con IA
-
-En el desarrollo con IA (Claude Code, OpenCode, Pi, Codex) se construyen arneses de seguridad mediante:
-- Prompts sofisticados: específicos, claros y sin ruido.
-- Reglas que deben seguir los agentes para trabajar: convenciones, metodología, buenas prácticas.
-- Conocimiento que le permite entender cómo debe funcionar la aplicación.
-- El propio código permite la detección de patrones.
-
----
 
 # ¿Qué vamos a ver en esta charla?
 
@@ -90,21 +78,6 @@ En el desarrollo con IA (Claude Code, OpenCode, Pi, Codex) se construyen arneses
 - Cómo funcionan estos sistemas por dentro
 - De qué forma podemos desarrollarlo
 - Información útil: modelos a utilizar, técnicas, AI Act.
-
----
-hide: true
----
-
-# ¿Cómo podemos llevar este control a las aplicaciones con IA?
-
-<v-clicks>
-
-- Un buen prompt
-- Sistema de búsqueda de información: bases de datos tradicionales / bases de datos vectoriales
-- Evaluaciones
-- Monitorización
-
-</v-clicks>
 
 ---
 
@@ -145,14 +118,6 @@ Con una aplicación que permita:
   <source src="./assets/video/gemini-recetas.mp4" type="video/mp4" />
 </SlidevVideo>
 
-<!--
-
-Aquí quiero que pongamos un slide con un vídeo donde abra un fichero de Word con recetas, un fichero con un prompt e instrucciones, y todo ello lo pegamos en Gemini, junto con nuestra pregunta inicial para que pueda responder.
-
-Quiero también que después de este slide indiquemos qué problemas presenta esta aproximación.
-
--->
-
 ---
 
 # Desventajas de elaborar prompts propios
@@ -174,12 +139,6 @@ Quiero también que después de este slide indiquemos qué problemas presenta es
 <img src="./assets/img/notebooklm-pescado.png" class="mx-auto max-h-90 rounded shadow" />
 
 <p class="text-xs text-right mt-1">NotebookLM</p>
-
-<!--
-Después hará falta mostrar ejemplos de RAGs. Inicialmente, con mostrar un ejemplo de NotebookLM y otro de la documentación de Netlify o un sistema similar nos sirve.
-
-Después podemos poner ejemplos con el RAG que hemos hecho.
--->
 
 ---
 
