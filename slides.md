@@ -295,6 +295,16 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 ## Evaluación
 
+- Comprobar con preguntas conocidas que se encuentran los resultados esperados
+- Estadísticas: ratio de aciertos, resultados correctos en las posiciones más altas
+- IA como un juez: que otro modelo evalúe la respuesta
+
+---
+
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+## Evaluación
+
 <img src="./assets/img/ai-eval-resultados.png" class="mx-auto max-h-90 rounded shadow" />
 
 ---
@@ -309,6 +319,16 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 - Da a conocer el uso real de la aplicación
 
 </v-clicks>
+
+---
+
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+## Monitorización
+
+- Comprobar qué consultas se hacen y qué resultados dan
+- Observar el consumo de tokens
+- IA como un juez: que otro modelo evalúe la respuesta y puntúe con relevancia
 
 ---
 
