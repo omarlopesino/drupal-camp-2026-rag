@@ -212,20 +212,35 @@ seccion: '04'
 <img src="./assets/diagramas/rag-agente.png" class="dcs-captura" />
 
 ---
+seccion: '05'
+---
 
 # Retos para desarrollar un RAG
 
-- ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
-- ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
-- ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+<div class="grid grid-cols-3 gap-6">
+  <div class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">01</p>
+    <p class="font-bold text-dcs-navy">¿Cómo conseguimos dotar de información propia a la inteligencia artificial?</p>
+  </div>
+  <div class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">02</p>
+    <p class="font-bold text-dcs-navy">¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?</p>
+  </div>
+  <div class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">03</p>
+    <p class="font-bold text-dcs-navy">¿Cómo sabemos si el modelo está respondiendo adecuadamente?</p>
+  </div>
+</div>
 
+---
+seccion: '05'
 ---
 
 # ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
 
 ## Indexado en motor de búsqueda
 
-<div class="grid grid-cols-2 gap-8 items-center mt-6 text-left">
+<div class="grid grid-cols-2 gap-8 items-center text-[21px]">
 <div>
 
 - Palabra exacta (BM25)
@@ -235,17 +250,19 @@ seccion: '04'
 
 </div>
 
-<img src="./assets/diagramas/bm25.png" class="mx-auto max-h-60" />
+<img src="./assets/diagramas/bm25.png" class="block mx-auto max-h-[300px] max-w-full rounded-dcs" />
 
 </div>
 
+---
+seccion: '05'
 ---
 
 # ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
 
 ## Indexado en base de datos vectorial
 
-<div class="grid grid-cols-2 gap-8 items-center mt-6 text-left">
+<div class="grid grid-cols-2 gap-8 items-center text-[21px]">
 <div>
 
 - Permite una búsqueda semántica
@@ -254,7 +271,7 @@ seccion: '04'
 
 </div>
 
-<img src="./assets/diagramas/vectorial.png" class="mx-auto max-h-70" />
+<img src="./assets/diagramas/vectorial.png" class="block mx-auto max-h-[300px] max-w-full rounded-dcs" />
 
 </div>
 
@@ -265,25 +282,48 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 -->
 
 ---
+seccion: '05'
+---
 
 # Bases de datos vectoriales
 
-<div class="grid grid-cols-2 gap-x-16 gap-y-5 items-center w-max mx-auto text-left text-2xl">
-  <span>Postgres</span><img src="./assets/img/logos/postgresql.svg" class="h-10" />
-  <span>Qdrant</span><img src="./assets/img/logos/qdrant.svg" class="h-10" />
-  <span>SQLite</span><img src="./assets/img/logos/sqlite.svg" class="h-10" />
-  <span>Solr</span><img src="./assets/img/logos/solr.svg" class="h-10" />
-  <span>Pinecone</span><img src="./assets/img/logos/pinecone.png" class="h-10" />
+<div class="grid grid-cols-5 gap-4">
+  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
+    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/postgresql.svg" class="h-12" /></div>
+    <span class="font-bold text-dcs-navy">Postgres</span>
+  </div>
+  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
+    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/qdrant.svg" class="h-12" /></div>
+    <span class="font-bold text-dcs-navy">Qdrant</span>
+  </div>
+  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
+    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/sqlite.svg" class="h-12" /></div>
+    <span class="font-bold text-dcs-navy">SQLite</span>
+  </div>
+  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
+    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/solr.svg" class="h-12" /></div>
+    <span class="font-bold text-dcs-navy">Solr</span>
+  </div>
+  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
+    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/pinecone.png" class="h-12" /></div>
+    <span class="font-bold text-dcs-navy">Pinecone</span>
+  </div>
 </div>
 
+---
+seccion: '05'
 ---
 
 # ¿Vectorial o tradicional?
 
-- La mejor opción siempre se verá durante las pruebas
-- Drupal soporta mejor las bases de datos vectoriales para los RAG
-- Se pueden usar ambas opciones perfectamente con búsquedas híbridas
+<div class="grid grid-cols-3 gap-6">
+  <div class="dcs-tarjeta-cielo min-h-[240px]">La mejor opción siempre se verá durante las pruebas</div>
+  <div class="dcs-tarjeta-atardecer min-h-[240px]">Drupal soporta mejor las bases de datos vectoriales para los RAG</div>
+  <div class="dcs-tarjeta-amanecer min-h-[240px]">Se pueden usar ambas opciones perfectamente con búsquedas híbridas</div>
+</div>
 
+---
+seccion: '05'
 ---
 
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
@@ -296,25 +336,24 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 - Más soluciones: añadir guardarraíles
 
 ---
-
-# ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
-
-<img src="./assets/img/chatbot-lentejas.png" class="mx-auto max-h-90 rounded shadow" />
-
-<p class="text-sm text-center mt-2">Pregunta correcta: respuesta apropiada</p>
-
+seccion: '05'
 ---
 
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
 
-<img src="./assets/img/chatbot-fuera-de-contexto.png" class="mx-auto max-h-90 rounded shadow" />
-
-<p class="text-sm text-center mt-2">Pregunta fuera de contexto: no se responde</p>
+<div class="grid grid-cols-2 gap-8">
+  <figure class="m-0">
+    <img src="./assets/img/chatbot-lentejas.png" class="block mx-auto h-[340px] rounded-dcs shadow" />
+    <figcaption class="mt-3 text-center">Pregunta correcta: respuesta apropiada</figcaption>
+  </figure>
+  <figure class="m-0">
+    <img src="./assets/img/chatbot-fuera-de-contexto.png" class="block mx-auto h-[340px] rounded-dcs shadow" />
+    <figcaption class="mt-3 text-center">Pregunta fuera de contexto: no se responde</figcaption>
+  </figure>
+</div>
 
 ---
-
-# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
-
+seccion: '05'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -330,6 +369,8 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 </v-clicks>
 
 ---
+seccion: '05'
+---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
 
@@ -340,13 +381,17 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 - IA como un juez: que otro modelo evalúe la respuesta
 
 ---
+seccion: '05'
+---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
 
 ## Evaluación
 
-<img src="./assets/img/ai-eval-resultados.png" class="mx-auto max-h-90 rounded shadow" />
+<img src="./assets/img/ai-eval-resultados.png" class="block mx-auto max-h-[320px] max-w-full rounded-dcs shadow" />
 
+---
+seccion: '05'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -361,6 +406,8 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 </v-clicks>
 
 ---
+seccion: '05'
+---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
 
@@ -371,30 +418,43 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 - IA como un juez: que otro modelo evalúe la respuesta y puntúe con relevancia
 
 ---
+seccion: '05'
+---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
 
-<img src="./assets/img/monitorizacion-escritorio-recorte.png" class="mx-auto max-h-90 rounded shadow" />
+<img src="./assets/img/monitorizacion-escritorio-recorte.png" class="block mx-auto max-h-[340px] max-w-full rounded-dcs shadow" />
 
-<p class="text-sm text-center mt-2">Monitorización</p>
+<p class="text-[16px] text-center text-dcs-azul mt-2">Monitorización</p>
 
+---
+seccion: '05'
 ---
 
 # Con esto conseguimos
 
-<v-clicks>
+<div class="grid grid-cols-3 gap-6">
+  <div v-click class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">01</p>
+    <p class="font-bold text-dcs-navy">Medir la calidad de nuestra aplicación</p>
+  </div>
+  <div v-click class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">02</p>
+    <p class="font-bold text-dcs-navy">Saber cuándo mejora o empeora tras modificar prompt o datos</p>
+  </div>
+  <div v-click class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">03</p>
+    <p class="font-bold text-dcs-navy">Evaluar funcionamiento con un uso real</p>
+  </div>
+</div>
 
-- Medir la calidad de nuestra aplicación
-- Saber cuándo mejora o empeora tras modificar prompt o datos
-- Evaluar funcionamiento con un uso real
-
-</v-clicks>
-
+---
+seccion: '05'
 ---
 
 # Flujo completo
 
-<img src="./assets/diagramas/ciclo.png" class="mx-auto max-h-90" />
+<img src="./assets/diagramas/ciclo.png" class="dcs-captura" />
 
 ---
 
