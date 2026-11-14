@@ -74,9 +74,9 @@ Los LLM (large language models) a día de hoy:
 
 - El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
 - El método: proveer a la IA generativa de un RAG
-- Ejemplos
-- Cómo funcionan estos sistemas por dentro
-- De qué forma podemos desarrollarlo
+- Ejemplos: solo con IA generativa frente a un RAG
+- Cómo funciona un RAG por dentro
+- Retos para desarrollar un RAG
 - Información útil: modelos a utilizar, técnicas, AI Act.
 
 ---
@@ -85,7 +85,7 @@ Los LLM (large language models) a día de hoy:
 
 ---
 
-# La solución: aportar valor con la inteligencia artificial
+# El método: proveer a la IA generativa de un RAG
 
 Con una aplicación que permita:
 
