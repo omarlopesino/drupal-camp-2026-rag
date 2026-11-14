@@ -344,6 +344,16 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 # AI Act: Aplicaciones de inteligencia artificial dentro del marco europeo
 
+<v-clicks>
+
+- Regula el uso de las aplicaciones de IA en la UE
+- Según el uso de la aplicación, se deben tomar ciertas medidas
+- Aplicaciones como chatbots deben informar del uso y presencia de la IA
+
+</v-clicks>
+
+<p v-click class="text-sm mt-8">Más información: <a href="https://artificialintelligenceact.eu/">https://artificialintelligenceact.eu/</a></p>
+
 <!--
 Posiblemente aquí merezca la pena hablar de cómo nuestros ejemplos llevan el disclaimer de que las respuestas son generadas por IA.
 -->
