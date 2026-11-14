@@ -226,6 +226,26 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 ---
 
+# Bases de datos vectoriales
+
+<div class="grid grid-cols-2 gap-x-16 gap-y-5 items-center w-max mx-auto text-left text-2xl">
+  <span>Postgres</span><img src="./assets/img/logos/postgresql.svg" class="h-10" />
+  <span>Qdrant</span><img src="./assets/img/logos/qdrant.svg" class="h-10" />
+  <span>SQLite</span><img src="./assets/img/logos/sqlite.svg" class="h-10" />
+  <span>Solr</span><img src="./assets/img/logos/solr.svg" class="h-10" />
+  <span>Pinecone</span><img src="./assets/img/logos/pinecone.png" class="h-10" />
+</div>
+
+---
+
+# ¿Vectorial o tradicional?
+
+- La mejor opción siempre se verá durante las pruebas
+- Drupal soporta mejor las bases de datos vectoriales para los RAG
+- Se pueden usar ambas opciones perfectamente con búsquedas híbridas
+
+---
+
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
 
 ## Ingeniería del prompt
