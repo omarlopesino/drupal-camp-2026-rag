@@ -104,68 +104,94 @@ Con una aplicación que permita:
 </div>
 
 ---
-
-# ¿Cómo podríamos hacerlo solo con IA generativa?
-
+layout: seccion-foto
+seccion: '03'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
 
-<img src="./assets/img/gemini-pregunta-pescado-cuadrado.png" class="mx-auto max-h-90 rounded shadow" />
+::imagen::
 
+<img src="./assets/img/gemini-pregunta-pescado-cuadrado.png" />
+
+---
+seccion: '03'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
 
-<img src="./assets/img/gemini-pregunta-pescado-dos-cuadrado.png" class="mx-auto max-h-90 rounded shadow" />
+<img src="./assets/img/gemini-pregunta-pescado-dos-cuadrado.png" class="dcs-captura" />
 
+---
+seccion: '03'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
 
-<SlidevVideo controls muted class="mx-auto max-h-90 rounded shadow">
+<SlidevVideo controls muted class="dcs-captura">
   <source src="./assets/video/gemini-recetas.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---
+seccion: '03'
+---
 
 # Desventajas de elaborar prompts propios
 
-- Te debes encargar de coleccionar toda la información y mantenerla al día
-- Debes saber elaborar un buen prompt
-- Es necesario tener disponibles los recursos, o, si no, no podrás usar la herramienta con facilidad
+<div class="grid grid-cols-3 gap-6">
+  <div class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">01</p>
+    <p class="font-bold text-dcs-navy">Te debes encargar de coleccionar toda la información y mantenerla al día</p>
+  </div>
+  <div class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">02</p>
+    <p class="font-bold text-dcs-navy">Debes saber elaborar un buen prompt</p>
+  </div>
+  <div class="dcs-tarjeta-borde">
+    <p class="text-[37px] font-bold text-dcs-azul">03</p>
+    <p class="font-bold text-dcs-navy">Es necesario tener disponibles los recursos, o, si no, no podrás usar la herramienta con facilidad</p>
+  </div>
+</div>
 
-<p class="text-sm mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
+<p class="text-[18px] mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
 
+---
+layout: seccion-foto
+seccion: '03'
+oscuro: true
 ---
 
 # ¿Cómo podríamos hacerlo con un RAG?
 
+::imagen::
+
+<img src="./assets/img/notebooklm-pescado.png" />
+
+NotebookLM
+
+---
+layout: imagen-sangre
+---
+
+Chatbot con Drupal
+
+# ¿Cómo podríamos hacerlo con un RAG?
+
+::imagen::
+
+<img src="./assets/img/chatbot-lentejas.png" />
+
+---
+seccion: '03'
 ---
 
 # ¿Cómo podríamos hacerlo con un RAG?
 
-<img src="./assets/img/notebooklm-pescado.png" class="mx-auto max-h-90 rounded shadow" />
-
-<p class="text-xs text-right mt-1">NotebookLM</p>
-
----
-
-# ¿Cómo podríamos hacerlo con un RAG?
-
-<img src="./assets/img/chatbot-lentejas.png" class="mx-auto max-h-90 rounded shadow" />
-
-<p class="text-xs text-right mt-1">Chatbot con Drupal</p>
-
----
-
-# ¿Cómo podríamos hacerlo con un RAG?
-
-<SlidevVideo controls muted class="mx-auto max-h-90 rounded shadow">
+<SlidevVideo controls muted class="dcs-captura">
   <source src="./assets/video/planificador-menu.mp4" type="video/mp4" />
 </SlidevVideo>
 
-<p class="text-xs text-right mt-1">Hecho con Drupal</p>
+<p class="text-[16px] text-right text-dcs-azul mt-2">Hecho con Drupal</p>
 
 ---
 
