@@ -392,7 +392,7 @@ Son necesarios diferentes modelos para:
 
 ---
 
-# AI Act: Aplicaciones de inteligencia artificial dentro del marco europeo
+# AI Act: aplicaciones de inteligencia artificial dentro del marco europeo
 
 <v-clicks>
 
