@@ -1,57 +1,57 @@
 ---
-theme: seriph
-colorSchema: light
+theme: ./theme
 title: Cómo hacer aplicaciones robustas de IA gracias a los RAG
 info: |
   En esta charla veremos cómo podemos crear aplicaciones de inteligencia artificial a medida que utilicen nuestros propios datos, garantizando fiabilidad y precisión.
 transition: slide-left
 mdc: true
 layout: cover
-background: '#fff'
-defaults:
-  layout: center
 ---
 
 # Cómo hacer aplicaciones robustas de IA gracias a los RAG
 
+Omar Lopesino · Metadrop
+
+<style>
+h1 { font-size: 48px !important; }
+</style>
+
+---
+layout: ponente
+nombre: Omar Lopesino
+cargo: Desarrollador backend · Metadrop
+logo: /metadrop.png
+empresa: Metadrop
 ---
 
-# Sobre mí
+Soy desarrollador backend desde hace más de 10 años.
 
-- Omar Lopesino.
-- Trabajo en Metadrop.
-- Soy desarrollador backend desde hace más de 10 años.
-- La IA me ha dado un mundo de cosas nuevas que aprender.
+La IA me ha dado un mundo de cosas nuevas que aprender.
 
 ---
 
 # ¿Quién utiliza inteligencia artificial en su día a día?
 
----
-
-# Gemini
-
-<img src="./assets/img/gemini-cuadrado.png" class="mx-auto max-h-90 rounded shadow" />
-
----
-
-# Grok
-
-<img src="./assets/img/grok-cuadrado.png" class="mx-auto max-h-90 rounded shadow" />
-
----
-
-# ChatGPT
-
-<img src="./assets/img/chatgpt-cuadrado.png" class="mx-auto max-h-90 rounded shadow" />
+<div class="grid grid-cols-3 gap-8">
+  <figure class="m-0">
+    <img src="./assets/img/gemini-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
+    <figcaption class="mt-4">Gemini</figcaption>
+  </figure>
+  <figure class="m-0">
+    <img src="./assets/img/grok-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
+    <figcaption class="mt-4">Grok</figcaption>
+  </figure>
+  <figure class="m-0">
+    <img src="./assets/img/chatgpt-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
+    <figcaption class="mt-4">ChatGPT</figcaption>
+  </figure>
+</div>
 
 ---
-layout: fact
----
 
-En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha utilizado la inteligencia artificial, tanto de forma personal como para trabajar y estudiar.
+> En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha utilizado la inteligencia artificial, tanto de forma personal como para trabajar y estudiar.
 
-<p class="text-base mt-6">Fuente: <a href="https://www.ine.es/dyngs/Prensa/TICH2025.htm" target="_blank">INE</a></p>
+<p class="text-dcs-azul">Fuente: <a href="https://www.ine.es/dyngs/Prensa/TICH2025.htm" target="_blank">INE</a></p>
 
 ---
 
