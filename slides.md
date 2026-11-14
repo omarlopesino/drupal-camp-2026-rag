@@ -69,30 +69,39 @@ Los LLM (large language models) a día de hoy:
 </v-clicks>
 
 ---
+layout: agenda
+---
 
 # ¿Qué vamos a ver en esta charla?
 
-- El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
-- El método: proveer a la IA generativa de un RAG
-- Ejemplos: solo con IA generativa frente a un RAG
-- Cómo funciona un RAG por dentro
-- Retos para desarrollar un RAG
-- Información útil: modelos a utilizar, técnicas, AI Act.
+1. El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
+2. El método: proveer a la IA generativa de un RAG
+3. Ejemplos: solo con IA generativa frente a un RAG
+4. Cómo funciona un RAG por dentro
+5. Retos para desarrollar un RAG
+6. Información útil: modelos a utilizar, técnicas, AI Act.
 
+---
+layout: section
+seccion: '01'
 ---
 
 # El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
 
+---
+seccion: '02'
 ---
 
 # El método: proveer a la IA generativa de un RAG
 
 Con una aplicación que permita:
 
-- Dar información correcta: real, sin alucinaciones.
-- Dar datos propios.
-- Interfaz que permita al usuario escribir mediante lenguaje natural.
-- Mostrar respuestas personalizadas.
+<div class="grid grid-cols-4 gap-6 mt-6">
+  <div class="dcs-tarjeta-cielo">Dar información correcta: real, sin alucinaciones.</div>
+  <div class="dcs-tarjeta-atardecer">Dar datos propios.</div>
+  <div class="dcs-tarjeta-amanecer">Interfaz que permita al usuario escribir mediante lenguaje natural.</div>
+  <div class="dcs-tarjeta-blanca">Mostrar respuestas personalizadas.</div>
+</div>
 
 ---
 
