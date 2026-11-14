@@ -407,3 +407,16 @@ Son necesarios diferentes modelos para:
 <!--
 Posiblemente aquí merezca la pena hablar de cómo nuestros ejemplos llevan el disclaimer de que las respuestas son generadas por IA.
 -->
+
+---
+
+# Módulos recomendados
+
+<table class="text-left text-sm !w-auto mx-auto [&_td]:py-1">
+  <tr><td><a href="https://www.drupal.org/project/ai">AI</a></td><td>Módulo base para integraciones con IA en Drupal</td></tr>
+  <tr><td>AI Chatbot</td><td>Integraciones con chatbots</td></tr>
+  <tr><td><a href="https://www.drupal.org/project/ai_agents">AI Agents</a></td><td>Construcción de agentes de IA en Drupal</td></tr>
+  <tr><td><a href="https://www.drupal.org/project/ai_disclosure">AI Disclosure</a></td><td>Indicar que estás utilizando IA en funcionalidades de la web</td></tr>
+  <tr><td>AI providers</td><td>Realizan llamadas a los modelos de IA</td></tr>
+  <tr><td>AI VDB providers</td><td>Indexan contenido en bases de datos vectoriales</td></tr>
+</table>
