@@ -316,7 +316,7 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 ## Evaluación
 
-<img src="./assets/img/ai-eval-resultados.png" class="mx-auto max-h-80 rounded shadow" />
+<img src="./assets/img/ai-eval-resultados.png" class="mx-auto max-h-90 rounded shadow" />
 
 ---
 
