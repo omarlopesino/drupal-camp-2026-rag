@@ -412,7 +412,7 @@ Posiblemente aquí merezca la pena hablar de cómo nuestros ejemplos llevan el d
 
 # Módulos recomendados
 
-<table class="text-left text-sm !w-auto mx-auto [&_td]:py-1">
+<table class="text-left text-sm [&_td]:py-1">
   <tr><td><a href="https://www.drupal.org/project/ai">AI</a></td><td>Módulo base para integraciones con IA en Drupal</td></tr>
   <tr><td>AI Chatbot</td><td>Integraciones con chatbots</td></tr>
   <tr><td><a href="https://www.drupal.org/project/ai_agents">AI Agents</a></td><td>Construcción de agentes de IA en Drupal</td></tr>
