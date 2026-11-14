@@ -457,26 +457,53 @@ seccion: '05'
 <img src="./assets/diagramas/ciclo.png" class="dcs-captura" />
 
 ---
+layout: section
+seccion: '06'
+---
+
+# Información útil
+
+---
+seccion: '06'
+---
 
 # Modelos
 
 Son necesarios diferentes modelos para:
 
-- Generar respuestas del RAG
-- Generar embeddings
-- Juez de IA en evaluaciones y monitorizaciones
+<div class="grid grid-cols-3 gap-6 mt-6">
+  <div class="dcs-tarjeta-cielo min-h-[200px]">Generar respuestas del RAG</div>
+  <div class="dcs-tarjeta-atardecer min-h-[200px]">Generar embeddings</div>
+  <div class="dcs-tarjeta-amanecer min-h-[200px]">Juez de IA en evaluaciones y monitorizaciones</div>
+</div>
 
+---
+seccion: '06'
 ---
 
 # Modelos prácticos
 
-<div class="grid grid-cols-2 gap-x-24 gap-y-8 w-max mx-auto mt-6">
-  <div class="flex flex-col items-center gap-2"><img src="./assets/img/logos/openai.svg" class="h-20" /><span>OpenAI</span></div>
-  <div class="flex flex-col items-center gap-2"><img src="./assets/img/logos/deepseek.svg" class="h-20" /><span>DeepSeek</span></div>
-  <div class="flex flex-col items-center gap-2"><img src="./assets/img/logos/claude.svg" class="h-20" /><span>Claude</span></div>
-  <div class="flex flex-col items-center gap-2"><img src="./assets/img/logos/qwen.svg" class="h-20" /><span>Qwen</span></div>
+<div class="grid grid-cols-4 gap-6">
+  <div class="dcs-tarjeta-cielo flex flex-col items-center gap-4 py-10">
+    <div class="w-28 h-28 rounded-full bg-white flex items-center justify-center"><img src="./assets/img/logos/openai.svg" class="h-16" /></div>
+    <span class="font-bold text-dcs-navy">OpenAI</span>
+  </div>
+  <div class="dcs-tarjeta-atardecer flex flex-col items-center gap-4 py-10">
+    <div class="w-28 h-28 rounded-full bg-white flex items-center justify-center"><img src="./assets/img/logos/deepseek.svg" class="h-16" /></div>
+    <span class="font-bold text-dcs-navy">DeepSeek</span>
+  </div>
+  <div class="dcs-tarjeta-amanecer flex flex-col items-center gap-4 py-10">
+    <div class="w-28 h-28 rounded-full bg-white flex items-center justify-center"><img src="./assets/img/logos/claude.svg" class="h-16" /></div>
+    <span class="font-bold text-dcs-navy">Claude</span>
+  </div>
+  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4 py-10">
+    <div class="w-28 h-28 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/qwen.svg" class="h-16" /></div>
+    <span class="font-bold text-dcs-navy">Qwen</span>
+  </div>
 </div>
 
+---
+seccion: '06'
 ---
 
 # ¿Con qué técnicas podemos perfeccionar un RAG?
@@ -491,6 +518,8 @@ Son necesarios diferentes modelos para:
 </v-clicks>
 
 ---
+seccion: '06'
+---
 
 # AI Act: aplicaciones de inteligencia artificial dentro del marco europeo
 
@@ -502,21 +531,49 @@ Son necesarios diferentes modelos para:
 
 </v-clicks>
 
-<p v-click class="text-sm mt-8">Más información: <a href="https://artificialintelligenceact.eu/">https://artificialintelligenceact.eu/</a></p>
+<p v-click class="text-[18px] mt-8">Más información: <a href="https://artificialintelligenceact.eu/">https://artificialintelligenceact.eu/</a></p>
 
 <!--
 Posiblemente aquí merezca la pena hablar de cómo nuestros ejemplos llevan el disclaimer de que las respuestas son generadas por IA.
 -->
 
 ---
+seccion: '06'
+---
 
 # Módulos recomendados
 
-<table class="text-left text-sm [&_td]:py-1">
-  <tr><td><a href="https://www.drupal.org/project/ai">AI</a></td><td>Módulo base para integraciones con IA en Drupal</td></tr>
-  <tr><td>AI Chatbot</td><td>Integraciones con chatbots</td></tr>
-  <tr><td><a href="https://www.drupal.org/project/ai_agents">AI Agents</a></td><td>Construcción de agentes de IA en Drupal</td></tr>
-  <tr><td><a href="https://www.drupal.org/project/ai_disclosure">AI Disclosure</a></td><td>Indicar que estás utilizando IA en funcionalidades de la web</td></tr>
-  <tr><td>AI providers</td><td>Realizan llamadas a los modelos de IA</td></tr>
-  <tr><td>AI VDB providers</td><td>Indexan contenido en bases de datos vectoriales</td></tr>
-</table>
+<div class="grid grid-cols-2 gap-x-12 gap-y-6 text-[21px]">
+  <div>
+    <p class="m-0 font-bold text-[24px]"><a href="https://www.drupal.org/project/ai">AI</a></p>
+    <p class="m-0">Módulo base para integraciones con IA en Drupal</p>
+  </div>
+  <div>
+    <p class="m-0 font-bold text-[24px] text-dcs-navy">AI Chatbot</p>
+    <p class="m-0">Integraciones con chatbots</p>
+  </div>
+  <div>
+    <p class="m-0 font-bold text-[24px]"><a href="https://www.drupal.org/project/ai_agents">AI Agents</a></p>
+    <p class="m-0">Construcción de agentes de IA en Drupal</p>
+  </div>
+  <div>
+    <p class="m-0 font-bold text-[24px]"><a href="https://www.drupal.org/project/ai_disclosure">AI Disclosure</a></p>
+    <p class="m-0">Indicar que estás utilizando IA en funcionalidades de la web</p>
+  </div>
+  <div>
+    <p class="m-0 font-bold text-[24px] text-dcs-navy">AI providers</p>
+    <p class="m-0">Realizan llamadas a los modelos de IA</p>
+  </div>
+  <div>
+    <p class="m-0 font-bold text-[24px] text-dcs-navy">AI VDB providers</p>
+    <p class="m-0">Indexan contenido en bases de datos vectoriales</p>
+  </div>
+</div>
+
+---
+
+# ¡Gracias!
+
+<div class="dcs-tarjeta-blanca">
+  <p class="text-[27px] font-bold m-0">¿Preguntas?</p>
+</div>
