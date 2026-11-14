@@ -25,7 +25,7 @@ defaults:
 
 ---
 
-# ¿Quién utiliza Inteligencia Artificial en su día a día?
+# ¿Quién utiliza inteligencia artificial en su día a día?
 
 ---
 
@@ -49,13 +49,13 @@ defaults:
 layout: fact
 ---
 
-En 2025 un estudio del INE reportó que alrededor del 37% de la población ha utilizado la inteligencia artificial, tanto de forma personal como para trabajar y estudiar.
+En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha utilizado la inteligencia artificial, tanto de forma personal como para trabajar y estudiar.
 
 <p class="text-base mt-6">Fuente: <a href="https://www.ine.es/dyngs/Prensa/TICH2025.htm" target="_blank">INE</a></p>
 
 ---
 
-# ¿Quién confía plenamente en las respuestas de la Inteligencia Artificial Generativa?
+# ¿Quién confía plenamente en las respuestas de la inteligencia artificial generativa?
 
 Los LLM (large language models) a día de hoy:
 
@@ -84,8 +84,8 @@ En el desarrollo con IA (Claude Code, OpenCode, Pi, Codex) se construyen arneses
 
 # ¿Qué vamos a ver en esta charla?
 
-- El objetivo: Dar respuestas fiables a los usuarios sobre problemas específicos
-- El método: Proveer a la IA generativa de un RAG
+- El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
+- El método: proveer a la IA generativa de un RAG
 - Ejemplos
 - Cómo funcionan estos sistemas por dentro
 - De qué forma podemos desarrollarlo
@@ -108,11 +108,11 @@ hide: true
 
 ---
 
-# El objetivo: Dar respuestas fiables a los usuarios sobre problemas específicos
+# El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
 
 ---
 
-# La solución: Aportar valor con la inteligencia artificial
+# La solución: aportar valor con la inteligencia artificial
 
 Con una aplicación que permita:
 
@@ -282,7 +282,7 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 <img src="./assets/img/chatbot-lentejas.png" class="mx-auto max-h-90 rounded shadow" />
 
-<p class="text-sm text-center mt-2">Pregunta correcta: Respuesta apropiada</p>
+<p class="text-sm text-center mt-2">Pregunta correcta: respuesta apropiada</p>
 
 ---
 
@@ -290,7 +290,7 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 <img src="./assets/img/chatbot-fuera-de-contexto.png" class="mx-auto max-h-90 rounded shadow" />
 
-<p class="text-sm text-center mt-2">Pregunta fuera de contexto: No se responde</p>
+<p class="text-sm text-center mt-2">Pregunta fuera de contexto: no se responde</p>
 
 ---
 
@@ -363,7 +363,7 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 <v-clicks>
 
-- ChatGPT 5 (el mini es suficiente)
+- GPT-5 (el mini es suficiente)
 - DeepSeek
 - Claude
 
