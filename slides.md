@@ -358,15 +358,24 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 
 ---
 
+# Modelos
+
+Son necesarios diferentes modelos para:
+
+- Generar respuestas del RAG
+- Generar embeddings
+- Juez de IA en evaluaciones y monitorizaciones
+
+---
+
 # Modelos prácticos
 
-<v-clicks>
-
-- GPT-5 (el mini es suficiente)
-- DeepSeek
-- Claude
-
-</v-clicks>
+<div class="grid grid-cols-2 gap-x-24 gap-y-8 w-max mx-auto mt-6">
+  <div class="flex flex-col items-center gap-2"><img src="./assets/img/logos/openai.svg" class="h-20" /><span>OpenAI</span></div>
+  <div class="flex flex-col items-center gap-2"><img src="./assets/img/logos/deepseek.svg" class="h-20" /><span>DeepSeek</span></div>
+  <div class="flex flex-col items-center gap-2"><img src="./assets/img/logos/claude.svg" class="h-20" /><span>Claude</span></div>
+  <div class="flex flex-col items-center gap-2"><img src="./assets/img/logos/qwen.svg" class="h-20" /><span>Qwen</span></div>
+</div>
 
 ---
 
