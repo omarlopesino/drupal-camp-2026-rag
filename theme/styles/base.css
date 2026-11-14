@@ -56,7 +56,7 @@
   color: var(--dcs-azul);
   margin-top: 4px;
 }
-.slidev-layout h2 { font-size: 32px; }
+.slidev-layout h2 { font-size: 32px; margin: 0 0 16px; }
 .slidev-layout h3 { font-size: 27px; }  /* 20 pt */
 .slidev-layout p { margin: 0 0 16px; }
 .slidev-layout a { color: var(--dcs-azul); text-decoration: underline; }
