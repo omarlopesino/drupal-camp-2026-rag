@@ -194,17 +194,22 @@ seccion: '03'
 <p class="text-[16px] text-right text-dcs-azul mt-2">Hecho con Drupal</p>
 
 ---
+seccion: '04'
+---
 
 # Todo esto funciona gracias a un RAG
 
-- Retrieval augmented generation
-- Sistema que provee de contexto a la IA a partir de una base de datos externa
+> Retrieval augmented generation
+>
+> Sistema que provee de contexto a la IA a partir de una base de datos externa
 
+---
+seccion: '04'
 ---
 
 # Cómo funciona un RAG por dentro
 
-<img src="./assets/diagramas/rag-agente.png" class="mx-auto max-h-90 rounded shadow" />
+<img src="./assets/diagramas/rag-agente.png" class="dcs-captura" />
 
 ---
 
