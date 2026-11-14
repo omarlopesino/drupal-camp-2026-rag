@@ -197,19 +197,17 @@ seccion: '03'
 seccion: '04'
 ---
 
-# Todo esto funciona gracias a un RAG
-
-> Retrieval augmented generation
->
-> Sistema que provee de contexto a la IA a partir de una base de datos externa
-
----
-seccion: '04'
----
-
 # Cómo funciona un RAG por dentro
 
-<img src="./assets/diagramas/rag-agente.png" class="dcs-captura" />
+Todo esto funciona gracias a un RAG
+
+<div class="grid grid-cols-[2fr_3fr] gap-8 items-center mt-4">
+  <div class="dcs-tarjeta-atardecer">
+    <p class="text-[27px] font-bold text-dcs-navy">Retrieval augmented generation</p>
+    <p class="m-0">Sistema que provee de contexto a la IA a partir de una base de datos externa</p>
+  </div>
+  <img src="./assets/diagramas/rag-agente.png" class="block mx-auto max-h-[330px] max-w-full rounded-dcs shadow" />
+</div>
 
 ---
 seccion: '05'
