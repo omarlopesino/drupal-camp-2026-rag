@@ -345,12 +345,12 @@ seccion: '05'
 
 <div class="grid grid-cols-2 gap-8">
   <figure class="m-0">
-    <img src="./assets/img/chatbot-lentejas.png" class="block mx-auto h-[340px] rounded-dcs shadow" />
-    <figcaption class="mt-3 text-center">Pregunta correcta: respuesta apropiada</figcaption>
+    <img src="./assets/img/chatbot-lentejas.png" class="block mx-auto h-[410px] rounded-dcs shadow" />
+    <figcaption class="mt-2 text-center">Pregunta correcta: respuesta apropiada</figcaption>
   </figure>
   <figure class="m-0">
-    <img src="./assets/img/chatbot-fuera-de-contexto.png" class="block mx-auto h-[340px] rounded-dcs shadow" />
-    <figcaption class="mt-3 text-center">Pregunta fuera de contexto: no se responde</figcaption>
+    <img src="./assets/img/chatbot-fuera-de-contexto.png" class="block mx-auto h-[410px] rounded-dcs shadow" />
+    <figcaption class="mt-2 text-center">Pregunta fuera de contexto: no se responde</figcaption>
   </figure>
 </div>
 
