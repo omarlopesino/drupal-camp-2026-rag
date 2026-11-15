@@ -83,10 +83,9 @@ layout: agenda
 # ¿Qué vamos a ver en esta charla?
 
 1. El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
-2. El método: proveer a la IA generativa de un RAG
-3. Un RAG en funcionamiento
-4. Retos para desarrollar un RAG
-5. Todo lo que debes conocer
+2. Un RAG en funcionamiento
+3. Retos para desarrollar un RAG
+4. Todo lo que debes conocer
 
 ---
 layout: section
@@ -148,10 +147,10 @@ seccion: '01'
 <p class="text-[18px] mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
 
 ---
-seccion: '02'
+seccion: '01'
 ---
 
-# El método: proveer a la IA generativa de un RAG
+# ¿Cómo podríamos hacerlo más sencillo?
 
 Con una aplicación que permita:
 
@@ -164,7 +163,7 @@ Con una aplicación que permita:
 
 ---
 layout: seccion-foto
-seccion: '03'
+seccion: '02'
 oscuro: true
 ---
 
@@ -189,7 +188,7 @@ Chatbot con Drupal
 <img src="./assets/img/chatbot-lentejas.png" />
 
 ---
-seccion: '03'
+seccion: '02'
 ---
 
 # Un RAG en funcionamiento
@@ -201,7 +200,7 @@ seccion: '03'
 <p class="text-[16px] text-right text-dcs-azul mt-2">Hecho con Drupal</p>
 
 ---
-seccion: '03'
+seccion: '02'
 ---
 
 # Cómo funciona un RAG por dentro
@@ -217,7 +216,7 @@ Todo esto funciona gracias a un RAG
 </div>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # Retos para desarrollar un RAG
@@ -238,7 +237,7 @@ seccion: '04'
 </div>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
@@ -260,7 +259,7 @@ seccion: '04'
 </div>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
@@ -287,7 +286,7 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 -->
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # Bases de datos vectoriales
@@ -316,7 +315,7 @@ seccion: '04'
 </div>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Vectorial o tradicional?
@@ -328,7 +327,7 @@ seccion: '04'
 </div>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
@@ -345,7 +344,7 @@ seccion: '04'
 </v-clicks>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
@@ -362,7 +361,7 @@ seccion: '04'
 </div>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -378,7 +377,7 @@ seccion: '04'
 </v-clicks>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -390,7 +389,7 @@ seccion: '04'
 - IA como un juez: que otro modelo evalúe la respuesta
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -400,7 +399,7 @@ seccion: '04'
 <p class="text-[18px] text-center text-dcs-azul !mt-2">Evaluación</p>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -427,7 +426,7 @@ seccion: '04'
 <p class="text-[18px] text-center text-dcs-azul !mt-2">Evaluación</p>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -442,7 +441,7 @@ seccion: '04'
 </v-clicks>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -454,7 +453,7 @@ seccion: '04'
 - IA como un juez: que otro modelo evalúe la respuesta y puntúe con relevancia
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -464,7 +463,7 @@ seccion: '04'
 <p class="text-[18px] text-center text-dcs-azul !mt-2">Monitorización</p>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -504,7 +503,7 @@ seccion: '04'
 <p class="text-[18px] text-center text-dcs-azul !mt-2">Monitorización</p>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # Evaluando y monitorizando conseguimos
@@ -525,7 +524,7 @@ seccion: '04'
 </div>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # Flujo de desarrollo de un RAG
@@ -534,13 +533,13 @@ seccion: '04'
 
 ---
 layout: section
-seccion: '05'
+seccion: '04'
 ---
 
 # Todo lo que debes conocer
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # Modelos
@@ -554,7 +553,7 @@ Son necesarios diferentes modelos para:
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # Modelos prácticos
@@ -579,7 +578,7 @@ seccion: '05'
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Con qué técnicas podemos perfeccionar un RAG?
@@ -594,7 +593,7 @@ seccion: '05'
 </v-clicks>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # AI Act: aplicaciones de inteligencia artificial dentro del marco europeo
@@ -614,7 +613,7 @@ Posiblemente aquí merezca la pena hablar de cómo nuestros ejemplos llevan el d
 -->
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # Módulos recomendados
