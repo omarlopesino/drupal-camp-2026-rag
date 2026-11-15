@@ -467,6 +467,46 @@ seccion: '04'
 seccion: '04'
 ---
 
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
+<div class="flex gap-4 -mt-[60px] h-[502px]">
+  <div class="w-[220px] flex flex-col gap-3">
+    <div class="dcs-tarjeta-blanca shadow !p-4 flex-1 flex flex-col justify-center">
+      <p class="text-[16px] !m-0">Interacciones</p>
+      <p class="text-[37px] font-bold text-dcs-navy !m-0">311</p>
+    </div>
+    <div class="dcs-tarjeta-blanca shadow !p-4 flex-1 flex flex-col justify-center">
+      <p class="text-[16px] !m-0">Mediana del tiempo de respuesta</p>
+      <p class="text-[37px] font-bold text-dcs-navy !m-0">6,8 s</p>
+    </div>
+    <div class="dcs-tarjeta-blanca shadow !p-4 flex-1 flex flex-col justify-center">
+      <p class="text-[16px] !m-0">Gasto</p>
+      <p class="text-[37px] font-bold text-dcs-navy !m-0">3,33 €</p>
+    </div>
+    <div class="dcs-tarjeta-blanca shadow !p-4 flex-1 flex flex-col justify-center">
+      <p class="text-[16px] !m-0">👍</p>
+      <p class="text-[37px] font-bold text-dcs-navy !m-0">73 %</p>
+    </div>
+  </div>
+  <div class="flex-1 flex flex-col gap-3">
+    <div class="flex gap-3 h-[245px]">
+    <img src="./assets/img/monitorizacion-tiempo.png" class="h-full rounded-dcs shadow" />
+    <img src="./assets/img/monitorizacion-tokens.png" class="h-full rounded-dcs shadow" />
+    </div>
+    <div class="flex gap-3 h-[245px]">
+    <img src="./assets/img/monitorizacion-modelo.png" class="h-full rounded-dcs shadow" />
+    <img src="./assets/img/monitorizacion-relevancia.png" class="h-full rounded-dcs shadow" />
+    <img src="./assets/img/monitorizacion-valoracion.png" class="h-full rounded-dcs shadow" />
+    </div>
+  </div>
+</div>
+
+<p class="text-[18px] text-center text-dcs-azul !mt-2">Monitorización</p>
+
+---
+seccion: '04'
+---
+
 # Con esto conseguimos
 
 <div class="grid grid-cols-3 gap-6">
