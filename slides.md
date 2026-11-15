@@ -70,6 +70,13 @@ Los LLM (large language models) a día de hoy:
 </v-clicks>
 
 ---
+
+<div class="grid grid-cols-2 gap-8 items-center h-full">
+  <img src="./assets/img/alucinacion-bulgaro.jpg" class="w-full rounded-dcs shadow" />
+  <img src="./assets/img/alucinacion-bulgaro-respuesta.jpg" class="w-full rounded-dcs shadow" />
+</div>
+
+---
 layout: agenda
 ---
 
