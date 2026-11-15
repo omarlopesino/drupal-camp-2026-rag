@@ -666,4 +666,4 @@ layout: feedback
 
 ¿Preguntas?
 
-Si tienes alguna duda o algo que decir sobre la charla este es tu momento.
+Si tienes alguna duda o algo que decir sobre la charla, este es tu momento.
