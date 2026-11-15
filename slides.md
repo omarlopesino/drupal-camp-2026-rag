@@ -639,7 +639,7 @@ seccion: '05'
   <div>
     <p class="m-0 font-bold text-[24px] text-dcs-navy">AI providers</p>
     <p class="m-0">Realizan llamadas a los modelos de IA</p>
-    <div class="flex flex-wrap gap-x-5 mt-1 text-[18px]">
+    <div class="flex flex-wrap gap-x-5 gap-y-1 mt-1 text-[18px]">
       <a href="https://www.drupal.org/project/ai_provider_openai">OpenAI Provider</a>
       <a href="https://www.drupal.org/project/ai_provider_deepseek">DeepSeek Provider</a>
       <a href="https://www.drupal.org/project/ai_provider_openrouter">OpenRouter Provider</a>
@@ -648,11 +648,12 @@ seccion: '05'
   <div>
     <p class="m-0 font-bold text-[24px] text-dcs-navy">AI VDB providers</p>
     <p class="m-0">Indexan contenido en bases de datos vectoriales</p>
-    <div class="flex flex-wrap gap-x-5 mt-1 text-[18px]">
+    <div class="flex flex-wrap gap-x-5 gap-y-1 mt-1 text-[18px]">
       <a href="https://www.drupal.org/project/ai_vdb_provider_postgres">Postgres VDB Provider</a>
       <a href="https://www.drupal.org/project/ai_vdb_provider_pinecone">Pinecone VDB Provider</a>
       <a href="https://www.drupal.org/project/ai_vdb_provider_mariadb">MariaDB VDB Provider</a>
       <a href="https://www.drupal.org/project/ai_vdb_provider_sqlite">SQLite VDB Provider</a>
+      <a href="https://www.drupal.org/project/ai_vdb_provider_qdrant">Qdrant VDB Provider</a>
     </div>
   </div>
 </div>
