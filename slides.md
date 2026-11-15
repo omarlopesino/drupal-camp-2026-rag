@@ -398,7 +398,7 @@ seccion: '05'
 
 <img src="./assets/img/ai-eval-resultados.png" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow" />
 
-<p class="text-[18px] text-center text-dcs-azul mt-2">Evaluación</p>
+<p class="text-[18px] text-center text-dcs-azul !mt-2">Evaluación</p>
 
 ---
 seccion: '05'
@@ -435,7 +435,7 @@ seccion: '05'
 
 <img src="./assets/img/monitorizacion-escritorio-recorte.png" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow" />
 
-<p class="text-[18px] text-center text-dcs-azul mt-2">Monitorización</p>
+<p class="text-[18px] text-center text-dcs-azul !mt-2">Monitorización</p>
 
 ---
 seccion: '05'
