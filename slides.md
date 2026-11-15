@@ -405,6 +405,33 @@ seccion: '04'
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
 
+<div class="flex gap-4 -mt-[60px] h-[502px]">
+  <div class="w-[220px] flex flex-col gap-3">
+    <div class="dcs-tarjeta-blanca shadow !p-4 flex-1 flex flex-col justify-center">
+      <p class="text-[16px] !m-0">LAST EVAL RUN</p>
+      <p class="text-[37px] font-bold text-dcs-navy !m-0">2 / 2 <span class="text-[20px]">passing</span></p>
+      <p class="text-[16px] !m-0">2026-10-20 04:04 · 2 targets · 21 questions · 10m 22s</p>
+    </div>
+    <div class="dcs-tarjeta-blanca shadow !p-4 flex-1 flex flex-col justify-center">
+      <p class="text-[16px] !m-0">WEEK OVER WEEK</p>
+      <p class="text-[37px] font-bold text-dcs-navy !m-0">2 / 2</p>
+      <p class="text-[16px] !m-0">(last week: 0 / 2)</p>
+    </div>
+  </div>
+  <div class="flex-1 flex flex-col gap-3 items-start">
+    <img src="./assets/img/ai-eval-target-health.png" class="w-[880px] rounded-dcs shadow" />
+    <img src="./assets/img/ai-eval-recent-runs.png" class="w-[880px] rounded-dcs shadow" />
+  </div>
+</div>
+
+<p class="text-[18px] text-center text-dcs-azul !mt-2">Evaluación</p>
+
+---
+seccion: '04'
+---
+
+# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
+
 ## Monitorización
 
 <v-clicks>
