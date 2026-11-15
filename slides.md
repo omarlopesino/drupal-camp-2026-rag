@@ -96,23 +96,8 @@ seccion: '01'
 # El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
 
 ---
-seccion: '02'
----
-
-# El método: proveer a la IA generativa de un RAG
-
-Con una aplicación que permita:
-
-<div class="grid grid-cols-4 gap-6 mt-6">
-  <div v-click class="dcs-tarjeta-cielo">Dar información correcta: real, sin alucinaciones.</div>
-  <div v-click class="dcs-tarjeta-atardecer">Dar datos propios.</div>
-  <div v-click class="dcs-tarjeta-amanecer">Interfaz que permita al usuario escribir mediante lenguaje natural.</div>
-  <div v-click class="dcs-tarjeta-blanca">Mostrar respuestas personalizadas.</div>
-</div>
-
----
 layout: seccion-foto
-seccion: '02'
+seccion: '01'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
@@ -122,7 +107,7 @@ seccion: '02'
 <img src="./assets/img/gemini-pregunta-pescado-cuadrado.png" />
 
 ---
-seccion: '02'
+seccion: '01'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
@@ -130,7 +115,7 @@ seccion: '02'
 <img src="./assets/img/gemini-pregunta-pescado-dos-cuadrado.png" class="dcs-captura" />
 
 ---
-seccion: '02'
+seccion: '01'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
@@ -140,7 +125,7 @@ seccion: '02'
 </SlidevVideo>
 
 ---
-seccion: '02'
+seccion: '01'
 ---
 
 # Desventajas de elaborar prompts propios
@@ -161,6 +146,21 @@ seccion: '02'
 </div>
 
 <p class="text-[18px] mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
+
+---
+seccion: '02'
+---
+
+# El método: proveer a la IA generativa de un RAG
+
+Con una aplicación que permita:
+
+<div class="grid grid-cols-4 gap-6 mt-6">
+  <div v-click class="dcs-tarjeta-cielo">Dar información correcta: real, sin alucinaciones.</div>
+  <div v-click class="dcs-tarjeta-atardecer">Dar datos propios.</div>
+  <div v-click class="dcs-tarjeta-amanecer">Interfaz que permita al usuario escribir mediante lenguaje natural.</div>
+  <div v-click class="dcs-tarjeta-blanca">Mostrar respuestas personalizadas.</div>
+</div>
 
 ---
 layout: seccion-foto
