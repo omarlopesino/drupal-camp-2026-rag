@@ -84,10 +84,9 @@ layout: agenda
 
 1. El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
 2. El método: proveer a la IA generativa de un RAG
-3. Ejemplos: solo con IA generativa frente a un RAG
-4. Cómo funciona un RAG por dentro
-5. Retos para desarrollar un RAG
-6. Información útil: modelos a utilizar, técnicas, AI Act.
+3. Qué es un RAG
+4. Retos para desarrollar un RAG
+5. Información útil: modelos a utilizar, técnicas, AI Act.
 
 ---
 layout: section
@@ -113,7 +112,7 @@ Con una aplicación que permita:
 
 ---
 layout: seccion-foto
-seccion: '03'
+seccion: '02'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
@@ -123,7 +122,7 @@ seccion: '03'
 <img src="./assets/img/gemini-pregunta-pescado-cuadrado.png" />
 
 ---
-seccion: '03'
+seccion: '02'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
@@ -131,7 +130,7 @@ seccion: '03'
 <img src="./assets/img/gemini-pregunta-pescado-dos-cuadrado.png" class="dcs-captura" />
 
 ---
-seccion: '03'
+seccion: '02'
 ---
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
@@ -141,7 +140,7 @@ seccion: '03'
 </SlidevVideo>
 
 ---
-seccion: '03'
+seccion: '02'
 ---
 
 # Desventajas de elaborar prompts propios
@@ -202,7 +201,7 @@ seccion: '03'
 <p class="text-[16px] text-right text-dcs-azul mt-2">Hecho con Drupal</p>
 
 ---
-seccion: '04'
+seccion: '03'
 ---
 
 # Cómo funciona un RAG por dentro
@@ -218,7 +217,7 @@ Todo esto funciona gracias a un RAG
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # Retos para desarrollar un RAG
@@ -239,7 +238,7 @@ seccion: '05'
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
@@ -261,7 +260,7 @@ seccion: '05'
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo conseguimos dotar de información propia a la inteligencia artificial?
@@ -288,7 +287,7 @@ Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CP
 -->
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # Bases de datos vectoriales
@@ -317,7 +316,7 @@ seccion: '05'
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Vectorial o tradicional?
@@ -329,7 +328,7 @@ seccion: '05'
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
@@ -346,7 +345,7 @@ seccion: '05'
 </v-clicks>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
@@ -363,7 +362,7 @@ seccion: '05'
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -379,7 +378,7 @@ seccion: '05'
 </v-clicks>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -391,7 +390,7 @@ seccion: '05'
 - IA como un juez: que otro modelo evalúe la respuesta
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -401,7 +400,7 @@ seccion: '05'
 <p class="text-[18px] text-center text-dcs-azul !mt-2">Evaluación</p>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -416,7 +415,7 @@ seccion: '05'
 </v-clicks>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -428,7 +427,7 @@ seccion: '05'
 - IA como un juez: que otro modelo evalúe la respuesta y puntúe con relevancia
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
@@ -438,7 +437,7 @@ seccion: '05'
 <p class="text-[18px] text-center text-dcs-azul !mt-2">Monitorización</p>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # Con esto conseguimos
@@ -459,7 +458,7 @@ seccion: '05'
 </div>
 
 ---
-seccion: '05'
+seccion: '04'
 ---
 
 # Flujo completo
@@ -468,13 +467,13 @@ seccion: '05'
 
 ---
 layout: section
-seccion: '06'
+seccion: '05'
 ---
 
 # Información útil
 
 ---
-seccion: '06'
+seccion: '05'
 ---
 
 # Modelos
@@ -488,7 +487,7 @@ Son necesarios diferentes modelos para:
 </div>
 
 ---
-seccion: '06'
+seccion: '05'
 ---
 
 # Modelos prácticos
@@ -513,7 +512,7 @@ seccion: '06'
 </div>
 
 ---
-seccion: '06'
+seccion: '05'
 ---
 
 # ¿Con qué técnicas podemos perfeccionar un RAG?
@@ -528,7 +527,7 @@ seccion: '06'
 </v-clicks>
 
 ---
-seccion: '06'
+seccion: '05'
 ---
 
 # AI Act: aplicaciones de inteligencia artificial dentro del marco europeo
@@ -548,7 +547,7 @@ Posiblemente aquí merezca la pena hablar de cómo nuestros ejemplos llevan el d
 -->
 
 ---
-seccion: '06'
+seccion: '05'
 ---
 
 # Módulos recomendados
