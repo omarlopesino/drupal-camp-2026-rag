@@ -507,7 +507,7 @@ seccion: '04'
 seccion: '04'
 ---
 
-# Con esto conseguimos
+# Evaluando y monitorizando conseguimos
 
 <div class="grid grid-cols-3 gap-6">
   <div v-click class="dcs-tarjeta-borde">
