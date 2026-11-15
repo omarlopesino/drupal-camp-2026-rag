@@ -84,9 +84,9 @@ layout: agenda
 
 1. El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
 2. El método: proveer a la IA generativa de un RAG
-3. Qué es un RAG
+3. Un RAG en funcionamiento
 4. Retos para desarrollar un RAG
-5. Información útil: modelos a utilizar, técnicas, AI Act.
+5. Todo lo que debes conocer
 
 ---
 layout: section
@@ -168,7 +168,7 @@ seccion: '03'
 oscuro: true
 ---
 
-# ¿Cómo podríamos hacerlo con un RAG?
+# Un RAG en funcionamiento
 
 ::imagen::
 
@@ -182,7 +182,7 @@ layout: imagen-sangre
 
 Chatbot con Drupal
 
-# ¿Cómo podríamos hacerlo con un RAG?
+# Un RAG en funcionamiento
 
 ::imagen::
 
@@ -192,7 +192,7 @@ Chatbot con Drupal
 seccion: '03'
 ---
 
-# ¿Cómo podríamos hacerlo con un RAG?
+# Un RAG en funcionamiento
 
 <SlidevVideo controls muted class="dcs-captura">
   <source src="./assets/video/planificador-menu.mp4" type="video/mp4" />
@@ -537,7 +537,7 @@ layout: section
 seccion: '05'
 ---
 
-# Información útil
+# Todo lo que debes conocer
 
 ---
 seccion: '05'
