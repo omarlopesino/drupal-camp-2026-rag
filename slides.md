@@ -528,9 +528,9 @@ seccion: '04'
 seccion: '04'
 ---
 
-# Flujo completo
+# Flujo de desarrollo de un RAG
 
-<img src="./assets/diagramas/ciclo.png" class="dcs-captura" />
+<img src="./assets/diagramas/ciclo.png" class="block mx-auto -mt-[60px] max-h-[535px] max-w-full rounded-dcs shadow" />
 
 ---
 layout: section
