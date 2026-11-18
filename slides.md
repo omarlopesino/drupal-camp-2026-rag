@@ -20,8 +20,8 @@ h1 { font-size: 48px !important; }
 layout: ponente
 nombre: Omar Lopesino
 foto: /omarlopesino.avif
-cargo: Desarrollador backend · Metadrop
-logo: /metadrop.png
+cargo: Desarrollador backend
+logo: /metadrop.svg
 empresa: Metadrop
 ---
 
