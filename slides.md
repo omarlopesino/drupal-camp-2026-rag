@@ -148,7 +148,7 @@ seccion: '01'
   </div>
 </div>
 
-<p class="text-[18px] mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
+<p v-click="'+0'" class="text-[18px] mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
 
 ---
 seccion: '01'
