@@ -672,18 +672,14 @@ seccion: '04'
 </div>
 
 ---
-layout: gracias
+layout: feedback
 ---
 
 # ¡Gracias!
 
----
+¿Preguntas?
 
-# ¿Preguntas?
-
-<div class="dcs-tarjeta-blanca">
-  <p>Valora la sesión en la web de la DrupalCamp</p>
-</div>
+Si tienes alguna duda o algo que decir sobre la charla, este es tu momento.
 
 ---
 class: dcs-fondo-blanco
