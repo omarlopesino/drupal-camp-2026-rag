@@ -661,36 +661,40 @@ seccion: '04'
 
 # Módulos recomendados
 
-<div class="grid grid-cols-2 gap-x-12 gap-y-6 text-[21px]">
+<div class="grid grid-cols-3 gap-x-10 gap-y-6 text-[19px]">
   <div>
-    <p class="m-0 font-bold text-[24px]"><a href="https://www.drupal.org/project/ai">AI</a></p>
+    <p class="m-0 font-bold text-[22px]"><a href="https://www.drupal.org/project/ai">AI</a></p>
     <p class="m-0">Módulo base para integraciones con IA en Drupal</p>
   </div>
   <div>
-    <p class="m-0 font-bold text-[24px] text-dcs-navy">AI Chatbot</p>
+    <p class="m-0 font-bold text-[22px] text-dcs-navy">AI Chatbot</p>
     <p class="m-0">Integraciones con chatbots</p>
   </div>
   <div>
-    <p class="m-0 font-bold text-[24px]"><a href="https://www.drupal.org/project/ai_agents">AI Agents</a></p>
+    <p class="m-0 font-bold text-[22px]"><a href="https://www.drupal.org/project/ai_agents">AI Agents</a></p>
     <p class="m-0">Construcción de agentes de IA en Drupal</p>
   </div>
   <div>
-    <p class="m-0 font-bold text-[24px]"><a href="https://www.drupal.org/project/ai_disclosure">AI Disclosure</a></p>
+    <p class="m-0 font-bold text-[22px]"><a href="https://www.drupal.org/project/ai_disclosure">AI Disclosure</a></p>
     <p class="m-0">Indicar que estás utilizando IA en funcionalidades de la web</p>
   </div>
   <div>
-    <p class="m-0 font-bold text-[24px] text-dcs-navy">AI providers</p>
+    <p class="m-0 font-bold text-[22px]"><a href="https://www.drupal.org/project/ai_eval">AI Eval</a></p>
+    <p class="m-0">Evaluación de agentes de IA</p>
+  </div>
+  <div>
+    <p class="m-0 font-bold text-[22px] text-dcs-navy">AI providers</p>
     <p class="m-0">Realizan llamadas a los modelos de IA</p>
-    <div class="flex flex-wrap gap-x-5 gap-y-1 mt-1 text-[18px]">
+    <div class="flex flex-wrap gap-x-5 gap-y-1 mt-1 text-[16px]">
       <a href="https://www.drupal.org/project/ai_provider_openai">OpenAI Provider</a>
       <a href="https://www.drupal.org/project/ai_provider_deepseek">DeepSeek Provider</a>
       <a href="https://www.drupal.org/project/ai_provider_openrouter">OpenRouter Provider</a>
     </div>
   </div>
-  <div>
-    <p class="m-0 font-bold text-[24px] text-dcs-navy">AI VDB providers</p>
+  <div class="col-span-3">
+    <p class="m-0 font-bold text-[22px] text-dcs-navy">AI VDB providers</p>
     <p class="m-0">Indexan contenido en bases de datos vectoriales</p>
-    <div class="flex flex-wrap gap-x-5 gap-y-1 mt-1 text-[18px]">
+    <div class="flex flex-wrap gap-x-5 gap-y-1 mt-1 text-[16px]">
       <a href="https://www.drupal.org/project/ai_vdb_provider_postgres">Postgres VDB Provider</a>
       <a href="https://www.drupal.org/project/ai_vdb_provider_pinecone">Pinecone VDB Provider</a>
       <a href="https://www.drupal.org/project/ai_vdb_provider_mariadb">MariaDB VDB Provider</a>
