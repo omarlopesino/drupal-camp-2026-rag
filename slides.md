@@ -691,4 +691,4 @@ class: dcs-fondo-blanco
 
 # Patrocinadores
 
-<img src="/patrocinadores.jpg" alt="Patrocinadores de la DrupalCamp Spain 2026" class="absolute left-[40px] top-[-58px] w-[824px] h-[518px]">
+<img src="/patrocinadores.jpg" alt="Patrocinadores de la DrupalCamp Spain 2026" class="absolute left-[170px] top-[-58px] w-[824px] h-[518px]">
