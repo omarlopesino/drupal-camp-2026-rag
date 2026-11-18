@@ -121,7 +121,7 @@ seccion: '01'
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
 
-<SlidevVideo controls muted class="dcs-captura">
+<SlidevVideo controls muted print-poster="/video/gemini-recetas-poster.jpg" class="dcs-captura">
   <source src="./assets/video/gemini-recetas.mp4" type="video/mp4" />
 </SlidevVideo>
 
@@ -195,7 +195,7 @@ seccion: '02'
 
 # Un RAG en funcionamiento
 
-<SlidevVideo controls muted class="dcs-captura">
+<SlidevVideo controls muted print-poster="/video/planificador-menu-poster.jpg" class="dcs-captura">
   <source src="./assets/video/planificador-menu.mp4" type="video/mp4" />
 </SlidevVideo>
 
