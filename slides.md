@@ -658,11 +658,23 @@ seccion: '04'
 </div>
 
 ---
-layout: feedback
+layout: gracias
 ---
 
 # ¡Gracias!
 
-¿Preguntas?
+---
 
-Si tienes alguna duda o algo que decir sobre la charla, este es tu momento.
+# ¿Preguntas?
+
+<div class="dcs-tarjeta-blanca">
+  <p>Valora la sesión en la web de la DrupalCamp</p>
+</div>
+
+---
+class: dcs-fondo-blanco
+---
+
+# Patrocinadores
+
+<img src="/patrocinadores.jpg" alt="Patrocinadores de la DrupalCamp Spain 2026" class="absolute left-[40px] top-[-58px] w-[824px] h-[518px]">
