@@ -121,9 +121,11 @@ seccion: '01'
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
 
-<SlidevVideo controls muted print-poster="/video/gemini-recetas-poster.jpg" class="dcs-captura">
+<SlidevVideo controls muted print-poster="/video/gemini-recetas-poster.jpg" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow">
   <source src="./assets/video/gemini-recetas.mp4" type="video/mp4" />
 </SlidevVideo>
+
+<p class="text-[18px] text-center text-dcs-azul !mt-2">Copiamos el prompt y todas nuestras recetas en Gemini para que elija una cena de pescado</p>
 
 ---
 seccion: '01'
@@ -195,11 +197,13 @@ seccion: '02'
 
 # Un RAG en funcionamiento
 
-<SlidevVideo controls muted print-poster="/video/planificador-menu-poster.jpg" class="dcs-captura">
+<SlidevVideo controls muted print-poster="/video/planificador-menu-poster.jpg" class="block mx-auto -mt-[60px] max-h-[465px] max-w-full rounded-dcs shadow">
   <source src="./assets/video/planificador-menu.mp4" type="video/mp4" />
 </SlidevVideo>
 
-<p class="text-[16px] text-right text-dcs-azul mt-2">Hecho con Drupal</p>
+<p class="text-[18px] text-center text-dcs-azul !mt-2">Pedimos un menú de 3 días con restricciones y lo refinamos con un cambio</p>
+
+<p class="text-[16px] text-right text-dcs-azul !mt-0">Hecho con Drupal</p>
 
 ---
 seccion: '02'
