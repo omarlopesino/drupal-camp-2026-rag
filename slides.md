@@ -79,6 +79,13 @@ Los LLM (large language models) a día de hoy:
 </div>
 
 ---
+
+<div class="flex justify-center items-center gap-8 h-full">
+  <img src="./assets/img/alucinacion-deodand.png" class="max-h-[500px] w-auto rounded-dcs shadow" />
+  <img src="./assets/img/alucinacion-deodand-respuesta.png" class="max-h-[500px] w-auto rounded-dcs shadow" />
+</div>
+
+---
 layout: agenda
 ---
 
