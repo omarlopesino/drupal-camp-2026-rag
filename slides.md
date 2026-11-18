@@ -186,7 +186,7 @@ oscuro: true
 
 ::imagen::
 
-<img src="./assets/img/notebooklm-pescado.png" />
+<img src="./assets/img/notebooklm-pescado-recorte.png" />
 
 NotebookLM
 
