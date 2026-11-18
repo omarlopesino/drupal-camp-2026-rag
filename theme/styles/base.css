@@ -59,6 +59,8 @@
 .slidev-layout h2 { font-size: 32px; margin: 0 0 16px; }
 .slidev-layout h3 { font-size: 27px; }  /* 20 pt */
 .slidev-layout p { margin: 0 0 16px; }
+/* Texto tras un bloque (grid, tarjeta…) de primer nivel: mismo aire que gap-6 */
+.dcs-contenido > div + :is(p, ul, ol) { margin-top: 24px; }
 .slidev-layout a { color: var(--dcs-azul); text-decoration: underline; }
 .slidev-layout strong { font-weight: 700; color: var(--dcs-navy); }
 
