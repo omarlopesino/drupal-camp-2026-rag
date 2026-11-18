@@ -49,10 +49,12 @@ La IA me ha dado un mundo de cosas nuevas que aprender.
 </div>
 
 ---
+layout: cita
+---
 
-> En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha utilizado la inteligencia artificial, tanto de forma personal como para trabajar y estudiar.
+En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha utilizado la inteligencia artificial, tanto de forma personal como para trabajar y estudiar.
 
-<p class="text-dcs-azul">Fuente: <a href="https://www.ine.es/dyngs/Prensa/TICH2025.htm" target="_blank">INE</a></p>
+<p>Fuente: <a href="https://www.ine.es/dyngs/Prensa/TICH2025.htm" target="_blank" class="!text-dcs-cielo">INE</a></p>
 
 ---
 
