@@ -218,6 +218,17 @@ Todo esto funciona gracias a un RAG
 </div>
 
 ---
+layout: seccion-foto
+seccion: '03'
+---
+
+# Retos para desarrollar un RAG
+
+::imagen::
+
+<img src="./assets/diagramas/rag.png" />
+
+---
 seccion: '03'
 ---
 
