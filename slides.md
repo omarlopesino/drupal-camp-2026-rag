@@ -545,8 +545,9 @@ seccion: '03'
 <img src="./assets/diagramas/ciclo.png" class="block mx-auto -mt-[60px] max-h-[535px] max-w-full rounded-dcs shadow" />
 
 ---
-layout: section
+layout: seccion-foto
 seccion: '04'
+oscuro: true
 ---
 
 # Todo lo que debes conocer
