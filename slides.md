@@ -595,6 +595,20 @@ seccion: '04'
 seccion: '04'
 ---
 
+# Modelos de embedding
+
+<div class="grid grid-cols-5 gap-6">
+  <div class="dcs-tarjeta-cielo flex items-center justify-center text-center min-h-[200px]"><span class="font-bold text-dcs-navy">intfloat/<wbr>multilingual-e5-small</span></div>
+  <div class="dcs-tarjeta-atardecer flex items-center justify-center text-center min-h-[200px]"><span class="font-bold text-dcs-navy">BAAI/<wbr>bge-m3</span></div>
+  <div class="dcs-tarjeta-amanecer flex items-center justify-center text-center min-h-[200px]"><span class="font-bold text-dcs-navy">nomic-embed-text</span></div>
+  <div class="dcs-tarjeta-blanca flex items-center justify-center text-center min-h-[200px]"><span class="font-bold text-dcs-navy">text-embedding-3-small</span></div>
+  <div class="dcs-tarjeta-borde flex items-center justify-center text-center min-h-[200px]"><span class="font-bold text-dcs-navy">text-embedding-3-large</span></div>
+</div>
+
+---
+seccion: '04'
+---
+
 # ¿Con qué técnicas podemos perfeccionar un RAG?
 
 <v-clicks>
