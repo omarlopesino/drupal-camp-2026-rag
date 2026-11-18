@@ -85,6 +85,10 @@ Los LLM (large language models) a día de hoy:
   <img src="./assets/img/alucinacion-deodand-respuesta.png" class="max-h-[500px] w-auto rounded-dcs shadow" />
 </div>
 
+<!--
+Es un patrón y no algo puntual: pasa especialmente con modelos menos capaces como Flash, Haiku o GPT nano
+-->
+
 ---
 layout: agenda
 ---
