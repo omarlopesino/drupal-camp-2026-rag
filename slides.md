@@ -39,8 +39,8 @@ La IA me ha dado un mundo de cosas nuevas que aprender.
     <figcaption class="mt-4">Gemini</figcaption>
   </figure>
   <figure v-click class="m-0">
-    <img src="./assets/img/grok-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
-    <figcaption class="mt-4">Grok</figcaption>
+    <img src="./assets/img/claude-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
+    <figcaption class="mt-4">Claude</figcaption>
   </figure>
   <figure v-click class="m-0">
     <img src="./assets/img/chatgpt-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
