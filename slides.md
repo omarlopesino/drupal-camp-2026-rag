@@ -241,7 +241,7 @@ seccion: '03'
 
 ::imagen::
 
-<img src="./assets/diagramas/rag.png" />
+<img src="./assets/img/seccion-retos.jpg" />
 
 ---
 seccion: '03'
@@ -566,6 +566,10 @@ oscuro: true
 ---
 
 # Todo lo que debes conocer
+
+::imagen::
+
+<img src="./assets/img/seccion-conocer.jpg" />
 
 ---
 seccion: '04'
