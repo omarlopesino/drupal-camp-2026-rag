@@ -121,7 +121,7 @@ seccion: '01'
 
 # ¿Cómo podríamos hacerlo solo con IA generativa?
 
-<SlidevVideo controls muted print-poster="/video/gemini-recetas-poster.jpg" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow">
+<SlidevVideo controls muted poster="/video/gemini-recetas-poster.jpg" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow">
   <source src="./assets/video/gemini-recetas.mp4" type="video/mp4" />
 </SlidevVideo>
 
@@ -197,7 +197,7 @@ seccion: '02'
 
 # Un RAG en funcionamiento
 
-<SlidevVideo controls muted print-poster="/video/planificador-menu-poster.jpg" class="block mx-auto -mt-[60px] max-h-[465px] max-w-full rounded-dcs shadow">
+<SlidevVideo controls muted poster="/video/planificador-menu-poster.jpg" class="block mx-auto -mt-[60px] max-h-[465px] max-w-full rounded-dcs shadow">
   <source src="./assets/video/planificador-menu.mp4" type="video/mp4" />
 </SlidevVideo>
 
