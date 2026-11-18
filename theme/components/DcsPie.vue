@@ -27,5 +27,5 @@ withDefaults(
   color: var(--dcs-azul);
 }
 .hashtag { font-weight: 700; }
-.oscuro { color: #fff; }
+.oscuro { color: var(--dcs-cielo); }
 </style>
