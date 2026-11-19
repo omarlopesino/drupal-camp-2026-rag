@@ -72,6 +72,8 @@ En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha u
 </v-clicks>
 
 ---
+hide: true
+---
 
 <img src="./assets/img/alucinacion-bulgaro.jpg" class="block mx-auto -mt-[60px] max-h-[535px] max-w-full rounded-dcs shadow" />
 
