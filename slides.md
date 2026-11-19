@@ -412,16 +412,6 @@ seccion: '03'
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
 
-<img src="./assets/img/ai-eval-resultados.png" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow" />
-
-<p class="text-[18px] text-center text-dcs-azul !mt-2">Evaluación</p>
-
----
-seccion: '03'
----
-
-# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
-
 <div class="flex gap-4 -mt-[60px] h-[502px]">
   <div class="w-[220px] flex flex-col gap-3">
     <div class="dcs-tarjeta-blanca shadow !p-4 flex-1 flex flex-col justify-center">
