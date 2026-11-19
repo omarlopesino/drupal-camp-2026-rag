@@ -536,7 +536,7 @@ oscuro: true
 seccion: '04'
 ---
 
-# Modelos
+# Modelos de IA generativa
 
 Son necesarios diferentes modelos para:
 
@@ -550,7 +550,7 @@ Son necesarios diferentes modelos para:
 seccion: '04'
 ---
 
-# Modelos prácticos
+# Modelos de IA generativa
 
 <div class="grid grid-cols-4 gap-6">
   <div class="dcs-tarjeta-cielo flex flex-col items-center gap-4 py-10">
