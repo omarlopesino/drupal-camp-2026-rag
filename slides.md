@@ -353,6 +353,7 @@ seccion: '03'
 
 <v-clicks>
 
+- Un prompt para gobernarlos a todos
 - Instrucciones precisas
 - Exigir que se ajuste al objetivo de la aplicación (guardarraíles)
 - Requerir un formato específico
