@@ -496,27 +496,6 @@ seccion: '03'
 seccion: '03'
 ---
 
-# Evaluando y monitorizando conseguimos
-
-<div class="grid grid-cols-3 gap-6">
-  <div v-click class="dcs-tarjeta-borde">
-    <p class="text-[37px] font-bold text-dcs-azul">01</p>
-    <p class="font-bold text-dcs-navy">Medir la calidad de nuestra aplicación</p>
-  </div>
-  <div v-click class="dcs-tarjeta-borde">
-    <p class="text-[37px] font-bold text-dcs-azul">02</p>
-    <p class="font-bold text-dcs-navy">Saber cuándo mejora o empeora tras modificar prompt o datos</p>
-  </div>
-  <div v-click class="dcs-tarjeta-borde">
-    <p class="text-[37px] font-bold text-dcs-azul">03</p>
-    <p class="font-bold text-dcs-navy">Evaluar funcionamiento con un uso real</p>
-  </div>
-</div>
-
----
-seccion: '03'
----
-
 # Flujo de desarrollo de un RAG
 
 <img src="./assets/diagramas/ciclo.png" class="block mx-auto -mt-[60px] max-h-[535px] max-w-full rounded-dcs shadow" />
