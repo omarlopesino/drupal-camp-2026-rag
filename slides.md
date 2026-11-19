@@ -64,10 +64,10 @@ En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha u
 
 <v-clicks at="1">
 
-- Alucinan (cada vez menos)
+- Para hacer respuestas a medida requieren elaborar prompts a medida
+- En ocasiones (muchas), requieren sucesivos prompts para obtener la respuesta deseada
 - Pueden no responder a la pregunta exacta del usuario
-- En ocasiones (muchas), requieren sucesivos prompts para obtener la respuesta deseada.
-- Para hacer respuestas a medida requieren elaborar prompts a medida.
+- Alucinan (cada vez menos)
 
 </v-clicks>
 
