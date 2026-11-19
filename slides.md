@@ -607,8 +607,6 @@ seccion: '04'
 
 </v-clicks>
 
-<p v-click class="text-[18px] mt-8">Más información: <a href="https://artificialintelligenceact.eu/">https://artificialintelligenceact.eu/</a></p>
-
 <!--
 Posiblemente aquí merezca la pena hablar de cómo nuestros ejemplos llevan el disclaimer de que las respuestas son generadas por IA.
 -->
