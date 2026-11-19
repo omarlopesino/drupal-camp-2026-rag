@@ -60,9 +60,9 @@ En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha u
 
 # ¿Quién confía plenamente en las respuestas de la inteligencia artificial generativa?
 
-Los LLM (large language models) a día de hoy:
+<p v-click="1">Los LLM (large language models) a día de hoy:</p>
 
-<v-clicks>
+<v-clicks at="1">
 
 - Alucinan (cada vez menos)
 - Pueden no responder a la pregunta exacta del usuario
