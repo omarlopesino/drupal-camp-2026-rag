@@ -393,7 +393,7 @@ seccion: '03'
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
 
-## Evaluación
+## Evaluación {v-click="1"}
 
 <v-clicks>
 
