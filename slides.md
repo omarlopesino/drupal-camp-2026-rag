@@ -400,7 +400,6 @@ seccion: '03'
 <v-clicks>
 
 - Pruebas antes de la puesta en producción
-- Permite testear la búsqueda y el agente antes de su despliegue
 - Usa una batería de pruebas planeada con antelación
   - Comprobar con preguntas conocidas que se encuentran los resultados esperados
   - Estadísticas: ratio de aciertos, resultados correctos en las posiciones más altas
