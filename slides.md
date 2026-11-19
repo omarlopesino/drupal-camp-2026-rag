@@ -278,7 +278,6 @@ seccion: '03'
 - Palabra exacta (BM25)
 - Implica limpiar la consulta y procesarla (o configurar el índice) para conseguir mejores resultados
 - MySQL, Elasticsearch / Solr
-- Se puede hacer perfectamente con Search API en Drupal (+ Search API DB, Search API Solr o Search API Elasticsearch)
 
 </div>
 
