@@ -439,26 +439,17 @@ seccion: '03'
 
 # ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
 
-## Monitorización
+## Monitorización {v-click="1"}
 
 <v-clicks>
 
 - Se guarda la actividad del usuario elegida
 - Da a conocer el uso real de la aplicación
-
-</v-clicks>
-
----
-seccion: '03'
----
-
-# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
-
-## Monitorización
-
 - Comprobar qué consultas se hacen y qué resultados dan
 - Observar el consumo de tokens
 - IA como un juez: que otro modelo evalúe la respuesta y puntúe con relevancia
+
+</v-clicks>
 
 ---
 seccion: '03'
