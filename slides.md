@@ -431,8 +431,6 @@ seccion: '03'
 
 <v-clicks>
 
-- Se guarda la actividad del usuario elegida
-- Da a conocer el uso real de la aplicación
 - Comprobar qué consultas se hacen y qué resultados dan
 - Observar el consumo de tokens
 - IA como un juez: que otro modelo evalúe la respuesta y puntúe con relevancia
