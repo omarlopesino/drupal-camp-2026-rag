@@ -400,20 +400,11 @@ seccion: '03'
 - Pruebas antes de la puesta en producción
 - Permite testear la búsqueda y el agente antes de su despliegue
 - Usa una batería de pruebas planeada con antelación
+  - Comprobar con preguntas conocidas que se encuentran los resultados esperados
+  - Estadísticas: ratio de aciertos, resultados correctos en las posiciones más altas
+  - IA como un juez: que otro modelo evalúe la respuesta
 
 </v-clicks>
-
----
-seccion: '03'
----
-
-# ¿Cómo sabemos si el modelo está respondiendo adecuadamente?
-
-## Evaluación
-
-- Comprobar con preguntas conocidas que se encuentran los resultados esperados
-- Estadísticas: ratio de aciertos, resultados correctos en las posiciones más altas
-- IA como un juez: que otro modelo evalúe la respuesta
 
 ---
 seccion: '03'
