@@ -147,10 +147,6 @@ seccion: '01'
   </div>
   <div v-click class="dcs-tarjeta-borde">
     <p class="text-[37px] font-bold text-dcs-azul">02</p>
-    <p class="font-bold text-dcs-navy">Debes saber elaborar un buen prompt</p>
-  </div>
-  <div v-click class="dcs-tarjeta-borde">
-    <p class="text-[37px] font-bold text-dcs-azul">03</p>
     <p class="font-bold text-dcs-navy">Es necesario tener disponibles los recursos, o, si no, no podrás usar la herramienta con facilidad</p>
   </div>
 </div>
