@@ -33,16 +33,16 @@ La IA me ha dado un mundo de cosas nuevas que aprender.
 
 # ¿Quién utiliza inteligencia artificial en su día a día?
 
-<div class="grid grid-cols-3 gap-8">
-  <figure v-click class="m-0">
+<div v-click class="grid grid-cols-3 gap-8">
+  <figure class="m-0">
     <img src="./assets/img/gemini-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
     <figcaption class="mt-4">Gemini</figcaption>
   </figure>
-  <figure v-click class="m-0">
+  <figure class="m-0">
     <img src="./assets/img/claude-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
     <figcaption class="mt-4">Claude</figcaption>
   </figure>
-  <figure v-click class="m-0">
+  <figure class="m-0">
     <img src="./assets/img/chatgpt-cuadrado.png" class="block h-[300px] rounded-dcs shadow" />
     <figcaption class="mt-4">ChatGPT</figcaption>
   </figure>
