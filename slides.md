@@ -603,7 +603,7 @@ seccion: '04'
 
 - Regula el uso de las aplicaciones de IA en la UE
 - Según el uso de la aplicación, se deben tomar ciertas medidas
-- Aplicaciones como chatbots deben informar del uso y presencia de la IA
+- Aplicaciones como chatbots deben informar que el usuario está interactuando con una IA
 
 </v-clicks>
 
