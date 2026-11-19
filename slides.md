@@ -354,9 +354,8 @@ seccion: '03'
 <v-clicks>
 
 - Instrucciones precisas
-- Exigir que se ajuste al objetivo de la aplicación
+- Exigir que se ajuste al objetivo de la aplicación (guardarraíles)
 - Requerir un formato específico
-- Guardarraíles
 
 </v-clicks>
 
