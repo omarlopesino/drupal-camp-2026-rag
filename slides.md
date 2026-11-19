@@ -587,7 +587,6 @@ seccion: '04'
 
 <v-clicks>
 
-- Búsqueda densa o dispersa
 - Búsqueda híbrida
 - Reconstrucción de la consulta del usuario
 - Reranking
