@@ -73,17 +73,11 @@ En 2025 un estudio del INE reportó que alrededor del 37 % de la población ha u
 
 ---
 
-<div class="grid grid-cols-2 gap-8 items-center h-full">
-  <img src="./assets/img/alucinacion-bulgaro.jpg" class="w-full rounded-dcs shadow" />
-  <img src="./assets/img/alucinacion-bulgaro-respuesta.jpg" class="w-full rounded-dcs shadow" />
-</div>
+<img src="./assets/img/alucinacion-bulgaro.jpg" class="block mx-auto -mt-[60px] max-h-[535px] max-w-full rounded-dcs shadow" />
 
 ---
 
-<div class="flex justify-center items-center gap-8 h-full">
-  <img src="./assets/img/alucinacion-deodand.png" class="max-h-[500px] w-auto rounded-dcs shadow" />
-  <img src="./assets/img/alucinacion-deodand-respuesta.png" class="max-h-[500px] w-auto rounded-dcs shadow" />
-</div>
+<img src="./assets/img/alucinacion-deodand.png" class="block mx-auto -mt-[60px] max-h-[535px] max-w-full rounded-dcs shadow" />
 
 <!--
 Es un patrón y no algo puntual: pasa especialmente con modelos menos capaces como Flash, Haiku o GPT nano
