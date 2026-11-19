@@ -359,7 +359,7 @@ seccion: '03'
 
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
 
-## Ingeniería del prompt
+## Ingeniería del prompt {v-click="1"}
 
 <v-clicks>
 
