@@ -156,9 +156,9 @@ Con una aplicación que permita:
 
 <div class="grid grid-cols-4 gap-6 mt-6">
   <div v-click class="dcs-tarjeta-cielo">Dar información correcta: real, sin alucinaciones.</div>
-  <div v-click class="dcs-tarjeta-atardecer">Dar datos propios.</div>
+  <div v-click class="dcs-tarjeta-atardecer">Alimentar a la inteligencia con datos propios</div>
   <div v-click class="dcs-tarjeta-amanecer">Interfaz que permita al usuario escribir mediante lenguaje natural.</div>
-  <div v-click class="dcs-tarjeta-blanca">Mostrar respuestas personalizadas.</div>
+  <div v-click class="dcs-tarjeta-blanca">Personalizar las respuestas recibidas</div>
 </div>
 
 ---
