@@ -366,7 +366,7 @@ seccion: '03'
 - Instrucciones precisas
 - Exigir que se ajuste al objetivo de la aplicación
 - Requerir un formato específico
-- Más soluciones: añadir guardarraíles
+- Guardarraíles
 
 </v-clicks>
 
