@@ -552,7 +552,7 @@ seccion: '04'
 
 # Modelos de IA generativa
 
-<div class="grid grid-cols-4 gap-6">
+<div class="grid grid-cols-3 gap-6 w-3/4 mx-auto">
   <div class="dcs-tarjeta-cielo flex flex-col items-center gap-4 py-10">
     <div class="w-28 h-28 rounded-full bg-white flex items-center justify-center"><img src="./assets/img/logos/openai.svg" class="h-16" /></div>
     <span class="font-bold text-dcs-navy">OpenAI</span>
@@ -564,10 +564,6 @@ seccion: '04'
   <div class="dcs-tarjeta-amanecer flex flex-col items-center gap-4 py-10">
     <div class="w-28 h-28 rounded-full bg-white flex items-center justify-center"><img src="./assets/img/logos/claude.svg" class="h-16" /></div>
     <span class="font-bold text-dcs-navy">Claude</span>
-  </div>
-  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4 py-10">
-    <div class="w-28 h-28 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/qwen.svg" class="h-16" /></div>
-    <span class="font-bold text-dcs-navy">Qwen</span>
   </div>
 </div>
 
