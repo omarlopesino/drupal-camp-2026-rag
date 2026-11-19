@@ -324,12 +324,12 @@ seccion: '03'
     <span class="font-bold text-dcs-navy">Qdrant</span>
   </div>
   <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
-    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/sqlite.svg" class="h-12" /></div>
-    <span class="font-bold text-dcs-navy">SQLite</span>
-  </div>
-  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
     <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/pinecone.png" class="h-12" /></div>
     <span class="font-bold text-dcs-navy">Pinecone</span>
+  </div>
+  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
+    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/sqlite.svg" class="h-12" /></div>
+    <span class="font-bold text-dcs-navy">SQLite</span>
   </div>
   <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
     <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/postgresql.svg" class="h-12" /></div>
