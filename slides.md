@@ -244,6 +244,9 @@ seccion: '03'
 # Retos para desarrollar un RAG
 
 <div class="grid grid-cols-3 gap-6">
+
+<v-clicks>
+
   <div class="dcs-tarjeta-borde">
     <p class="text-[37px] font-bold text-dcs-azul">01</p>
     <p class="font-bold text-dcs-navy">¿Cómo conseguimos dotar de información propia a la inteligencia artificial?</p>
@@ -256,6 +259,9 @@ seccion: '03'
     <p class="text-[37px] font-bold text-dcs-azul">03</p>
     <p class="font-bold text-dcs-navy">¿Cómo sabemos si el modelo está respondiendo adecuadamente?</p>
   </div>
+
+</v-clicks>
+
 </div>
 
 ---
