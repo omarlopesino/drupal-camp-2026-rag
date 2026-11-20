@@ -92,7 +92,7 @@ layout: agenda
 # ¿Qué vamos a ver en esta charla?
 
 1. El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
-2. Un RAG en funcionamiento
+2. Aplicaciones de IA en funcionamiento
 3. Retos para desarrollar un RAG
 4. Todo lo que debes conocer
 
@@ -177,7 +177,7 @@ seccion: '02'
 oscuro: true
 ---
 
-# Un RAG en funcionamiento
+# Aplicaciones de IA en funcionamiento
 
 ::imagen::
 
@@ -191,7 +191,7 @@ layout: imagen-sangre
 
 Chatbot con Drupal
 
-# Un RAG en funcionamiento
+# Aplicaciones de IA en funcionamiento
 
 ::imagen::
 
@@ -201,7 +201,7 @@ Chatbot con Drupal
 seccion: '02'
 ---
 
-# Un RAG en funcionamiento
+# Aplicaciones de IA en funcionamiento
 
 <SlidevVideo controls muted poster="/video/planificador-menu-poster.jpg" class="block mx-auto -mt-[60px] max-h-[465px] max-w-full rounded-dcs shadow">
   <source src="./assets/video/planificador-menu.mp4" type="video/mp4" />
