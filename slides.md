@@ -215,7 +215,7 @@ seccion: '02'
 seccion: '02'
 ---
 
-# Cómo funciona un RAG por dentro
+# ¿Cómo funcionan?
 
 Todo esto funciona gracias a un RAG
 
