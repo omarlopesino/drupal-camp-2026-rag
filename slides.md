@@ -302,6 +302,7 @@ seccion: '03'
 - Más apropiado para el lenguaje natural
 - Qdrant, Pinecone, SQLite, Postgres, Solr
 
+- Ampliamente soportados por Drupal
 </div>
 
 <img src="./assets/diagramas/vectorial.png" class="block mx-auto max-h-[300px] max-w-full rounded-dcs" />
