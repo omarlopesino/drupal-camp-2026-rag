@@ -629,12 +629,16 @@ seccion: '04'
 </div>
 
 ---
-layout: feedback
+layout: gracias
 ---
 
 # ¡Gracias!
 
-¿Preguntas?
+---
+layout: section-cielo
+---
+
+# ¿Preguntas?
 
 Si tienes alguna duda o algo que decir sobre la charla, este es tu momento.
 
