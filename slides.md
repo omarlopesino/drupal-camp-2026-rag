@@ -555,7 +555,7 @@ seccion: '04'
 
 <v-clicks>
 
-- Búsqueda híbrida
+- Búsqueda híbrida: combinar búsquedas normales con vectoriales
 - Reconstrucción de la consulta del usuario
 - Reranking
 
