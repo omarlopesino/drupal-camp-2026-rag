@@ -93,7 +93,7 @@ layout: agenda
 
 1. El objetivo: dar respuestas fiables a los usuarios sobre problemas específicos
 2. Aplicaciones de IA en funcionamiento
-3. Retos para desarrollar un RAG
+3. Retos para el desarrollo
 4. Todo lo que debes conocer
 
 ---
@@ -232,7 +232,7 @@ layout: seccion-foto
 seccion: '03'
 ---
 
-# Retos para desarrollar un RAG
+# Retos para el desarrollo
 
 ::imagen::
 
@@ -242,7 +242,7 @@ seccion: '03'
 seccion: '03'
 ---
 
-# Retos para desarrollar un RAG
+# Retos para el desarrollo
 
 <div class="grid grid-cols-3 gap-6">
 
