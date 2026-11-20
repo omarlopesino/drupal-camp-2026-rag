@@ -138,7 +138,7 @@ seccion: '01'
 seccion: '01'
 ---
 
-# Desventajas de elaborar prompts propios
+# Desventajas
 
 <div class="grid grid-cols-3 gap-6">
   <div class="dcs-tarjeta-borde">
