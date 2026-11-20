@@ -108,7 +108,7 @@ layout: seccion-foto
 seccion: '01'
 ---
 
-# ¿Cómo podríamos hacerlo solo con IA generativa?
+# ¿Cómo podemos hacerlo solo con chatbots de IA generativa?
 
 ::imagen::
 
@@ -118,7 +118,7 @@ seccion: '01'
 seccion: '01'
 ---
 
-# ¿Cómo podríamos hacerlo solo con IA generativa?
+# ¿Cómo podemos hacerlo solo con chatbots de IA generativa?
 
 <img src="./assets/img/gemini-pregunta-pescado-dos-cuadrado.png" class="block mx-auto -mt-[60px] max-h-[535px] max-w-full rounded-dcs shadow" />
 
@@ -126,7 +126,7 @@ seccion: '01'
 seccion: '01'
 ---
 
-# ¿Cómo podríamos hacerlo solo con IA generativa?
+# ¿Cómo podemos hacerlo solo con chatbots de IA generativa?
 
 <SlidevVideo controls muted poster="/video/gemini-recetas-poster.jpg" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow">
   <source src="./assets/video/gemini-recetas.mp4" type="video/mp4" />
