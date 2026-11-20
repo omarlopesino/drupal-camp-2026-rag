@@ -300,6 +300,7 @@ seccion: '03'
 - Permite una búsqueda semántica
 - Es capaz de encontrar resultados relevantes, aunque no coincidan las palabras
 - Más apropiado para el lenguaje natural
+- Qdrant, Pinecone, SQLite, Postgres, Solr
 
 </div>
 
@@ -312,35 +313,6 @@ Más que haber uno mejor, hay que probar cuál funciona mejor en cada caso. Posi
 
 Mencionar que el embedding implica utilizar un modelo que utilice la GPU o la CPU. También se puede generar a través de la API de un proveedor (OpenAI, Mistral, etc.), pagando por uso.
 -->
-
----
-seccion: '03'
----
-
-# Bases de datos vectoriales
-
-<div class="grid grid-cols-5 gap-4">
-  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
-    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/qdrant.svg" class="h-12" /></div>
-    <span class="font-bold text-dcs-navy">Qdrant</span>
-  </div>
-  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
-    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/pinecone.png" class="h-12" /></div>
-    <span class="font-bold text-dcs-navy">Pinecone</span>
-  </div>
-  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
-    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/sqlite.svg" class="h-12" /></div>
-    <span class="font-bold text-dcs-navy">SQLite</span>
-  </div>
-  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
-    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/postgresql.svg" class="h-12" /></div>
-    <span class="font-bold text-dcs-navy">Postgres</span>
-  </div>
-  <div class="dcs-tarjeta-blanca flex flex-col items-center gap-4">
-    <div class="w-24 h-24 rounded-full bg-dcs-bruma flex items-center justify-center"><img src="./assets/img/logos/solr.svg" class="h-12" /></div>
-    <span class="font-bold text-dcs-navy">Solr</span>
-  </div>
-</div>
 
 ---
 seccion: '03'
