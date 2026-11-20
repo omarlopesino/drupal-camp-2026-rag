@@ -510,7 +510,7 @@ Son necesarios diferentes modelos para:
 
 <div class="grid grid-cols-3 gap-6 mt-6">
   <div class="dcs-tarjeta-cielo min-h-[200px]">Generar respuestas del RAG</div>
-  <div class="dcs-tarjeta-atardecer min-h-[200px]">Generar embeddings</div>
+  <div class="dcs-tarjeta-atardecer min-h-[200px]">Agregar documentos en bases de datos vectoriales</div>
   <div class="dcs-tarjeta-amanecer min-h-[200px]">Juez de IA en evaluaciones y monitorizaciones</div>
 </div>
 
