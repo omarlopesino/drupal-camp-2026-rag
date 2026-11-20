@@ -320,7 +320,8 @@ seccion: '03'
 
 # ¿Vectorial o tradicional?
 
-<div class="grid grid-cols-2 gap-6">
+<div class="grid grid-cols-3 gap-6">
+  <div class="dcs-tarjeta-cielo min-h-[240px]">La mejor opción siempre se verá durante las pruebas</div>
   <div class="dcs-tarjeta-atardecer min-h-[240px]">Drupal soporta mejor las bases de datos vectoriales para los RAG</div>
   <div class="dcs-tarjeta-amanecer min-h-[240px]">Se pueden usar ambas opciones perfectamente con búsquedas híbridas</div>
 </div>
