@@ -140,7 +140,7 @@ seccion: '01'
 
 # Desventajas de elaborar prompts propios
 
-<div v-click class="grid grid-cols-3 gap-6">
+<div class="grid grid-cols-3 gap-6">
   <div class="dcs-tarjeta-borde">
     <p class="text-[37px] font-bold text-dcs-azul">01</p>
     <p class="font-bold text-dcs-navy">Te debes encargar de coleccionar toda la información y mantenerla al día</p>
@@ -155,7 +155,7 @@ seccion: '01'
   </div>
 </div>
 
-<p v-click="'+0'" class="text-[18px] mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
+<p class="text-[18px] mt-6">Se pueden reutilizar sesiones, pero entonces se podrían polucionar con el contexto o incluso consumirlo por completo</p>
 
 ---
 seccion: '01'
