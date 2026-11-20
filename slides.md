@@ -301,8 +301,8 @@ seccion: '03'
 - Es capaz de encontrar resultados relevantes, aunque no coincidan las palabras
 - Más apropiado para el lenguaje natural
 - Qdrant, Pinecone, SQLite, Postgres, Solr
+- Ampliamente soportadas por Drupal
 
-- Ampliamente soportados por Drupal
 </div>
 
 <img src="./assets/diagramas/vectorial.png" class="block mx-auto max-h-[300px] max-w-full rounded-dcs" />
