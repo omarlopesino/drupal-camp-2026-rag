@@ -504,7 +504,7 @@ oscuro: true
 seccion: '04'
 ---
 
-# Modelos de IA generativa
+# Modelos para aplicaciones de IA
 
 Son necesarios diferentes modelos para:
 
@@ -518,7 +518,7 @@ Son necesarios diferentes modelos para:
 seccion: '04'
 ---
 
-# Modelos de IA generativa
+# Modelos para aplicaciones de IA
 
 <div class="grid grid-cols-3 gap-6 w-3/4 mx-auto">
   <div class="dcs-tarjeta-cielo flex flex-col items-center gap-4 py-10">
