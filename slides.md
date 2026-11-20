@@ -551,7 +551,7 @@ seccion: '04'
 seccion: '04'
 ---
 
-# ¿Con qué técnicas podemos perfeccionar un RAG?
+# ¿Con qué técnicas podemos mejorar estas aplicaciones?
 
 <v-clicks>
 
