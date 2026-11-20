@@ -166,7 +166,7 @@ seccion: '01'
 Con una aplicación que permita:
 
 <div class="grid grid-cols-3 gap-6 mt-6">
-  <div class="dcs-tarjeta-cielo">Dar información correcta: real, sin alucinaciones.</div>
+  <div class="dcs-tarjeta-cielo">Automatizar la obtención de datos</div>
   <div class="dcs-tarjeta-amanecer">Interfaz que permita al usuario escribir mediante lenguaje natural.</div>
   <div class="dcs-tarjeta-blanca">Personalizar las respuestas recibidas</div>
 </div>
