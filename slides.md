@@ -330,6 +330,9 @@ seccion: '03'
 
 # ¿Cómo controlamos que la aplicación responda solo a nuestras preguntas?
 
+<div class="grid grid-cols-[3fr_2fr] gap-10 items-start">
+<div>
+
 ## Ingeniería del prompt {v-click="1"}
 
 <v-clicks>
@@ -340,6 +343,23 @@ seccion: '03'
 - Requerir un formato específico
 
 </v-clicks>
+
+</div>
+
+<div class="relative mt-2 rounded-dcs border-2 border-dashed border-dcs-azul p-4 flex flex-col gap-3 text-[20px] font-bold text-dcs-navy">
+  <div class="absolute -top-5 -right-5 w-10 h-10 rounded-full bg-dcs-amarillo flex items-center justify-center text-[22px]"><DcsIcono nombre="chispa" /></div>
+  <div class="dcs-tarjeta-cielo !py-3 flex items-center gap-3"><span class="text-[26px] text-dcs-azul flex"><DcsIcono nombre="personas" /></span>Prompt de usuario</div>
+  <div class="dcs-tarjeta-amanecer !py-3 flex items-center gap-3"><span class="text-[26px] text-dcs-azul flex"><DcsIcono nombre="lapiz" /></span>Instrucciones</div>
+  <div class="dcs-tarjeta-atardecer !py-3 flex flex-col gap-3">
+    <div class="flex items-center gap-3"><span class="text-[26px] text-dcs-azul flex"><DcsIcono nombre="buscar" /></span>Contenido obtenido por el RAG</div>
+    <div class="flex items-center gap-2 rounded-lg bg-white px-3 py-2"><span class="text-[20px] text-dcs-azul flex"><DcsIcono nombre="fichero" /></span><span class="h-2 flex-1 rounded-full bg-dcs-cielo"></span></div>
+    <div class="flex items-center gap-2 rounded-lg bg-white px-3 py-2"><span class="text-[20px] text-dcs-azul flex"><DcsIcono nombre="fichero" /></span><span class="h-2 w-3/4 rounded-full bg-dcs-cielo"></span></div>
+    <div class="flex items-center gap-2 rounded-lg bg-white px-3 py-2"><span class="text-[20px] text-dcs-azul flex"><DcsIcono nombre="fichero" /></span><span class="h-2 w-5/6 rounded-full bg-dcs-cielo"></span></div>
+    <div class="flex items-center gap-2 rounded-lg bg-white px-3 py-2"><span class="text-[20px] text-dcs-azul flex"><DcsIcono nombre="fichero" /></span><span class="h-2 w-2/3 rounded-full bg-dcs-cielo"></span></div>
+  </div>
+</div>
+
+</div>
 
 ---
 seccion: '03'
