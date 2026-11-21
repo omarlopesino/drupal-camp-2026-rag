@@ -25,14 +25,14 @@ defineProps<{
 <template>
   <div class="slidev-layout dcs-ponente" :class="fondo === 'cielo' ? 'cielo dcs-fondo-cielo' : 'dcs-fondo-plano-navy'">
     <div class="foto" :class="{ vacia: !foto }">
-      <img v-if="foto" :src="foto" :alt="nombre">
+      <img v-if="foto" :src="$pub(foto)" :alt="nombre">
       <svg v-else class="hueco" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <rect x="3" y="3" width="18" height="18" rx="3" /><circle cx="9" cy="9" r="1.8" /><path d="M21 15l-5-5-11 11" />
       </svg>
     </div>
     <div v-if="logo" class="logo-empresa">
-      <img :src="logo" :alt="empresa">
+      <img :src="$pub(logo)" :alt="empresa">
     </div>
 
     <p class="antetitulo">Ponente</p>
