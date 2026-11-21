@@ -1,8 +1,9 @@
 ---
 theme: ./theme
 title: Cómo hacer aplicaciones robustas de IA gracias a los RAG
-info: |
-  En esta charla veremos cómo podemos crear aplicaciones de inteligencia artificial a medida que utilicen nuestros propios datos, garantizando fiabilidad y precisión.
+info: &info En esta charla veremos cómo podemos crear aplicaciones de inteligencia artificial a medida que utilicen nuestros propios datos, garantizando fiabilidad y precisión.
+seoMeta:
+  ogDescription: *info
 transition: slide-left
 mdc: true
 layout: cover
