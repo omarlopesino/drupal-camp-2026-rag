@@ -31,7 +31,7 @@ La IA me ha dado un mundo de cosas nuevas que aprender.
 
 ---
 
-# ¿Quién utiliza inteligencia artificial en su día a día?
+# La inteligencia artificial generativa está al día
 
 <div class="grid grid-cols-3 gap-8">
   <figure class="m-0">
