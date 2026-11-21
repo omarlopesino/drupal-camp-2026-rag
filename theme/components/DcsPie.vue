@@ -7,7 +7,11 @@ withDefaults(
 
 <template>
   <footer class="dcs-pie" :class="{ oscuro }">
-    <span class="hashtag">{{ hashtag ? '#DrupalCampSpain2026' : '' }}</span>
+    <span class="marca">
+      <template v-if="hashtag">
+        <span class="hashtag">#DrupalCampSpain2026</span> · omarlopesino.me/rag
+      </template>
+    </span>
     <span v-if="numero" class="numero">{{ $page }}</span>
   </footer>
 </template>
