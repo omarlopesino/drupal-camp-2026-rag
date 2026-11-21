@@ -394,6 +394,7 @@ seccion: '03'
   - Comprobar con preguntas conocidas que se encuentran los resultados esperados
   - Estadísticas: ratio de aciertos, resultados correctos en las posiciones más altas
   - IA como un juez: que otro modelo evalúe la respuesta
+- Se recomienda hacer pruebas con pocos datos
 
 </v-clicks>
 
