@@ -20,6 +20,7 @@ withDefaults(defineProps<{ fecha?: string }>(), { fecha: 'Madrid · 19–21 novi
     <div class="contenido">
       <slot />
     </div>
+    <DcsPie :numero="false" />
   </div>
 </template>
 
