@@ -31,7 +31,7 @@ La IA me ha dado un mundo de cosas nuevas que aprender.
 
 ---
 
-# La inteligencia artificial generativa está al día
+# La inteligencia artificial generativa está muy presente
 
 <div class="grid grid-cols-3 gap-8">
   <figure class="m-0">
