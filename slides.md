@@ -620,7 +620,11 @@ seccion: '04'
       <a href="https://www.drupal.org/project/ai_provider_openrouter">OpenRouter Provider</a>
     </div>
   </div>
-  <div class="col-span-3">
+  <div>
+    <p class="m-0 font-bold text-[22px]"><a href="https://www.drupal.org/project/default_content">Default Content</a></p>
+    <p class="m-0">Exporta e importa contenido de ejemplo</p>
+  </div>
+  <div class="col-span-2">
     <p class="m-0 font-bold text-[22px] text-dcs-navy">AI VDB providers</p>
     <p class="m-0">Indexan contenido en bases de datos vectoriales</p>
     <div class="flex flex-wrap gap-x-5 gap-y-1 mt-1 text-[16px]">
