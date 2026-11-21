@@ -4,7 +4,7 @@
   Uso: <DcsIcono nombre="paleta" />
   Nombres: paleta, fichero, git, codigo, navegador, capas, etiqueta, diana, llaves, libro,
   prohibido, piezas, chispa, personas, check, cruz, imagen, buscar, lapiz, cohete,
-  graduado, mano, accesible, velocidad, escudo, micro, llave, rama, flecha-izquierda
+  graduado, mano, accesible, velocidad, escudo, micro, llave, candado, rama, flecha-izquierda
 -->
 <script setup lang="ts">
 defineProps<{ nombre: string }>()
@@ -101,6 +101,9 @@ defineProps<{ nombre: string }>()
     </template>
     <template v-else-if="nombre === 'llave'">
       <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+    </template>
+    <template v-else-if="nombre === 'candado'">
+      <rect x="3" y="11" width="18" height="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" />
     </template>
     <template v-else-if="nombre === 'rama'">
       <path d="M6 3v12" /><circle cx="18" cy="6" r="3" /><circle cx="6" cy="18" r="3" /><path d="M18 9a9 9 0 0 1-9 9" />
