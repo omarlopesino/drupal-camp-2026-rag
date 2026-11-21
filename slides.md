@@ -128,7 +128,7 @@ seccion: '01'
 
 # ¿Cómo podemos hacerlo solo con chatbots de IA generativa?
 
-<SlidevVideo controls muted poster="/video/gemini-recetas-poster.jpg" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow">
+<SlidevVideo controls muted :poster="$pub('/video/gemini-recetas-poster.jpg')" class="block mx-auto -mt-[60px] max-h-[495px] max-w-full rounded-dcs shadow">
   <source src="./assets/video/gemini-recetas.mp4" type="video/mp4" />
 </SlidevVideo>
 
@@ -203,7 +203,7 @@ seccion: '02'
 
 # Aplicaciones de IA en funcionamiento
 
-<SlidevVideo controls muted poster="/video/planificador-menu-poster.jpg" class="block mx-auto -mt-[60px] max-h-[465px] max-w-full rounded-dcs shadow">
+<SlidevVideo controls muted :poster="$pub('/video/planificador-menu-poster.jpg')" class="block mx-auto -mt-[60px] max-h-[465px] max-w-full rounded-dcs shadow">
   <source src="./assets/video/planificador-menu.mp4" type="video/mp4" />
 </SlidevVideo>
 
