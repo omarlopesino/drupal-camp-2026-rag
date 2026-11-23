@@ -1,0 +1,25 @@
+name: Exportar PDF
+
+on:
+  push:
+    tags: ['*']
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npx slidev export --output slides-${{ github.ref_name }}.pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: slides-${{ github.ref_name }}
+          path: slides-${{ github.ref_name }}.pdf
